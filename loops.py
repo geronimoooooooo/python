@@ -18,3 +18,7 @@ print activities[8]
 for keys in activities.keys():
     print "%s: %s"  %(keys, activities[keys] )
 ------------------------------------------
+size= 4
+for i in range(size):
+    print i
+------------------------------------------
