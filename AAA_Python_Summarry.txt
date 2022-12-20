@@ -1,0 +1,4 @@
+
+
++ in der console: python oder py
++ exit() um die command line zu verlassen
