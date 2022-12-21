@@ -1,1 +1,9 @@
 ctrl+f5: Python file ausführen
+
+
+===Extensions===
+Python v2022.20.1 von Microsoft 
+autoDocstring v0.6.1 von Nils Werner
+python snippets v1.0.2 von Ferhat Yalcin
+Git Graph
+isort
