@@ -18,3 +18,8 @@ def name(name, lastName='john'):
 			lastName (str, optional): _description_. Defaults to 'john'.
 	"""	
 	print("def name")
+
+
+
+def name2(args):
+ return "a"

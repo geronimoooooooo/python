@@ -5,10 +5,9 @@ msg ="hello"
 print(msg)
 
 
-
-def funcc():
-  print("a func")
-
+x = 20
+print(x)
 
 
 functions_c.funca()
+functions_c.name2
