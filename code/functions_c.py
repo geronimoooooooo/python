@@ -9,7 +9,12 @@ def funca():
 	return "abc"
 
 
-def name(name, lastName='john')
+	
+def name(name, lastName='john'):
 	"""_summary_
-	"""
-	print "def name"
+
+	Args:
+			name (_type_): _description_
+			lastName (str, optional): _description_. Defaults to 'john'.
+	"""	
+	print("def name")
