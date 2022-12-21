@@ -3,3 +3,4 @@
 + in der console: python oder py
 + exit() um die command line zu verlassen
 + All classes have a function called __init__(), which is always executed when the class is being initiated.
++ The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
