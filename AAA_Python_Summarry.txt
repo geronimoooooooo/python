@@ -11,3 +11,6 @@
 
 ===Commands===
 >python --version
+>pip --version
+>pip install <nameOfModule>
+>pip show <nameOfModule>
