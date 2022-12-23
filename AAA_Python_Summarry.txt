@@ -6,3 +6,8 @@
 + The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
 + module: code library. A file containing a set of functions you want to include in your application.
 + Import only the person1 dictionary from the module: from mymodule import person1
+
+
+
+===Commands===
+>python --version
