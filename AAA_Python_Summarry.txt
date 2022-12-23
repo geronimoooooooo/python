@@ -12,5 +12,5 @@
 ===Commands===
 >python --version
 >pip --version
->pip install <nameOfModule>
+>pip install <nameOfModule>, pip install rasterio==1.2.6
 >pip show <nameOfModule>
