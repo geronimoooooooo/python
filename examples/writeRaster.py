@@ -1,5 +1,4 @@
 import rasterio
 
 
-with rasterio.open(r"output.tif")
-count = 
+#with rasterio.open(r"output.tif")
