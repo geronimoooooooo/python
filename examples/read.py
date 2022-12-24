@@ -39,6 +39,10 @@ for row in range(1,600):
 
 print(data)
 
+#complete example to create .tif https://pypi.org/project/rasterio/1.3.3/#description
+#https://stackoverflow.com/questions/58193526/rasterio-source-shape-is-inconsistent-with-given-indexes-1
+#https://rasterio.readthedocs.io/en/latest/topics/writing.html
+#https://gis.stackexchange.com/questions/279953/numpy-array-to-gtiff-using-rasterio-without-source-raster
 
 with rasterio.open(r"nepal_out3.tif", 'w',
                     driver=ds.driver,
