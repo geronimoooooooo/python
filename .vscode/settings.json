@@ -1,0 +1,15 @@
+{   
+	"python.autoComplete.extraPaths": [
+			"C:\\Python311\\Lib\\site-packages", 
+			"C:/Python311/Lib/site-packages/rasterio",
+			"C:/Python311/Lib/site-packages"
+		
+		],
+		"python.analysis.extraPaths": [
+			"C:\\Python311\\Lib\\site-packages", 
+			"C:/Python311/Lib/site-packages"
+		],
+	
+    "python.defaultInterpreterPath": "C:/Python311/python.exe"
+    
+}

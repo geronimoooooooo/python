@@ -1,5 +1,4 @@
 import rasterio
-import rasterio.control, rasterio.crs
 from rasterio.plot import show, show_hist
 from rasterio import DatasetReader
 import rioxarray
@@ -40,6 +39,7 @@ for row in range(1,600):
 
 print(data)
 
+
 with rasterio.open(r"nepal_out3.tif", 'w',
                     driver=ds.driver,
                     height=ds.height,
@@ -57,7 +57,7 @@ show(dsNepal, cmap="rainbow")
 
 
 rioData = rioxarray.open_rasterio('nepal.tif')
-rioxarray.
+
 print(rioData.rio.bounds())
 print("reso: ",rioData.rio.resolution())
 
