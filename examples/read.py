@@ -49,6 +49,7 @@ print(data)
 #MEHRERE .tif files werden in array eingelesen und abgearbeitet 
 # Reading And Plotting Raster Data With Rioxarray https://adenaheem.com/reading-and-plotting-raster-data-with-rioxarray/
 # MMerge rasters in Python using Rioxarray https://spatial-dev.guru/2022/09/29/merge-rasters-in-python-using-rioxarray/
+# Getting pixel values at single point using rasterio https://gis.stackexchange.com/questions/190423/getting-pixel-values-at-single-point-using-rasterio
 
 with rasterio.open(r"nepal_out3.tif", 'w',
                     driver=ds.driver,
