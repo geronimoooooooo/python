@@ -44,6 +44,12 @@ print(data)
 #https://rasterio.readthedocs.io/en/latest/topics/writing.html
 #https://gis.stackexchange.com/questions/279953/numpy-array-to-gtiff-using-rasterio-without-source-raster
 
+#öffnet einige files mit rioxarray und rasterio.open https://www.youtube.com/watch?v=TbbL2yeRTsk
+#check for nodata values https://www.youtube.com/watch?v=SCHTZ4oaohA
+#MEHRERE .tif files werden in array eingelesen und abgearbeitet 
+# Reading And Plotting Raster Data With Rioxarray https://adenaheem.com/reading-and-plotting-raster-data-with-rioxarray/
+# MMerge rasters in Python using Rioxarray https://spatial-dev.guru/2022/09/29/merge-rasters-in-python-using-rioxarray/
+
 with rasterio.open(r"nepal_out3.tif", 'w',
                     driver=ds.driver,
                     height=ds.height,
