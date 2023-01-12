@@ -18,5 +18,11 @@
 >py --lists-paths #zeigt alle gefundenen installierten Pythonsversionen an
 >where python #zeigt alle Pfade zu gefundenen python.exe
 >py -0p #zeigt Version zu alle gefundenen installierten python.exe mit Pfad
->python; >>>import sys; >>>print(sys.exec_prefix);>>>print(sys.path) #zeigt den Pfad zur aktuell genutzten Pythonversion an
-In order to use the arcpy module you will need to use the Python interpreter that is installed by your ArcGIS client.
+>python -c "import sys; print(sys.exec_prefix);print(sys.path)"  #zeigt den Pfad zur aktuell genutzten Pythonversion an
+
+* In order to use the arcpy module you will need to use the Python interpreter that is installed by your ArcGIS client.
+  Wenn mehrere unterschiedliche Python Versionen vorhanden sind, dann kann eine spezielle genutzt werden, indem
+  Python aus dem Ordner, wo sich die gewünschte spezielle Version befindet, über commandline gestartet wird.  
+  C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3>python --version
+  Python 3.9.11
+  Falls python nicht in dem Ordner aufgerufen, dann nimmt das system die "default python version" her
