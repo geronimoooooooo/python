@@ -18,4 +18,5 @@
 >py --lists-paths #zeigt alle gefundenen installierten Pythonsversionen an
 >where python #zeigt alle Pfade zu gefundenen python.exe
 >py -0p #zeigt Version zu alle gefundenen installierten python.exe mit Pfad
+>python; >>>import sys; >>>print(sys.exec_prefix);>>>print(sys.path) #zeigt den Pfad zur aktuell genutzten Pythonversion an
 In order to use the arcpy module you will need to use the Python interpreter that is installed by your ArcGIS client.
