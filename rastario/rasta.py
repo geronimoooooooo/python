@@ -3,7 +3,7 @@ import rasterio
 #dataset= rasterio.open('C:\\rasta\\foc2.tif') C:\rasta\final
 dataset= rasterio.open('C:\\rasta\\final\\zonM.tif') 
 print('dataset.width: '+ str(dataset.width))
-#print(dataset.indexes)
+print(dataset.indexes)
 
 
 band1 = dataset.read(1)
