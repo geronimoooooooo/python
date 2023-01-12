@@ -13,8 +13,9 @@
 >python --version
 >pip --version
 >pip install <nameOfModule> #z.B. pip install rasterio==1.3.3
->pip show <nameOfModule> #zeigt wo das modul abgespeichert
+>pip show <nameOfModule> #zeigt details und wo das modul abgespeichert ist
 >where python #zeigt alle ordner an wo sich eine python version mit python.exe befindet
 >py --lists-paths #zeigt alle gefundenen installierten Pythonsversionen an
 >where python #zeigt alle Pfade zu gefundenen python.exe
 >py -0p #zeigt Version zu alle gefundenen installierten python.exe mit Pfad
+In order to use the arcpy module you will need to use the Python interpreter that is installed by your ArcGIS client.
