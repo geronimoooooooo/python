@@ -25,4 +25,4 @@
   Python aus dem Ordner, wo sich die gewünschte spezielle Version befindet, über commandline gestartet wird.  
   C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3>python --version
   Python 3.9.11
-  Falls python nicht in dem Ordner aufgerufen, dann nimmt das system die "default python version" her
+  Falls python nicht in dem Ordner aufgerufen, dann nimmt das system die "default python version" her.
