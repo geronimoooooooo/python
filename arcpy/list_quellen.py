@@ -1,14 +1,26 @@
-What is the Raster Cell Iterator? https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/raster-cell-iterator/what-is-the-raster-cell-iterator.htm
+Alphabetical list of ArcPy functions: https://euclgis.reg.rw/portal/portalhelp/en/notebook/latest/python/windows/alphabetical-list-of-arcpy-functions.htm
+
+CON: 
+https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/con-.htm
+https://gis.stackexchange.com/questions/39139/making-new-raster-using-con-script-using-arcpy
+https://gis.stackexchange.com/questions/261252/arcgis-raster-calculator-con-statement?rq=1
+    
+What is the Raster Cell Iterator? read, write to cells
+https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/raster-cell-iterator/what-is-the-raster-cell-iterator.htm
+https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/raster-cell-iterator/a-quick-tour-of-using-the-raster-cell-iterator.htm
+      
 Introducing the Raster Cell Iterator https://www.esri.com/arcgis-blog/products/spatial-analyst/analytics/introducing-the-raster-cell-iterator/
   
-  Get Raster Properties (Data Management) https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/get-raster-properties.htm
+Get Raster Properties (Data Management) https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/get-raster-properties.htm
     
+copy, delete raster: https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/copy.htm
     
 Raster mergen und Con(): https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/mapalgebra/building-complex-statements.htm
 Raster modifien und abspeichern, for: https://support.esri.com/en/technical-article/000022418
 Additional ArcGIS Pro Functions: https://gsp.humboldt.edu/olm/Courses/GSP_318/05_4_1_RasterArithmatic.html
     
 raster, numpy, loop, cells of raster, path, save How to calculate the mean value of multiple large rasters in python/arcpy?: https://stackoverflow.com/questions/72655982/how-to-calculate-the-mean-value-of-multiple-large-rasters-in-python-arcpy
+RasterToNumPyArray: https://euclgis.reg.rw/portal/portalhelp/en/notebook/latest/python/windows/rastertonumpyarray-function.htm
 
 numpy, copyRaster: https://gist.github.com/kevin-peel/e47738b6afba31f5419c
 Raster Compare: https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/raster-compare.htm
