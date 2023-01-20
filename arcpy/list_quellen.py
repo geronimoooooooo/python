@@ -4,6 +4,7 @@ CON:
 https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/con-.htm
 https://gis.stackexchange.com/questions/39139/making-new-raster-using-con-script-using-arcpy
 https://gis.stackexchange.com/questions/261252/arcgis-raster-calculator-con-statement?rq=1
+https://resources.arcgis.com/en/help/main/10.1/index.html#//009z000000zn000000
     
 What is the Raster Cell Iterator? read, write to cells
 https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/raster-cell-iterator/what-is-the-raster-cell-iterator.htm
@@ -36,6 +37,11 @@ loop, folder, path, con, save: https://gis.stackexchange.com/questions/332925/lo
 WICHTIG Raster (Grid) Handling: https://hydro-informatics.com/jupyter/geo-raster.html
 https://desktop.arcgis.com/en/arcmap/10.3/analyze/arcpy-classes/raster-object.htm
 https://pro.arcgis.com/en/pro-app/latest/arcpy/classes/raster-object.htm
+
+noData:
+    https://gis.stackexchange.com/questions/282073/set-raster-properties-in-arcpy-multiple-no-data-values-for-single-band-raster
+    https://support.esri.com/en/technical-article/000010059
+    
 
 path:https://community.esri.com/t5/python-questions/error-999998-unexpected-error-raster-algebra/td-p/392130
  for inraster in rasterlist:
