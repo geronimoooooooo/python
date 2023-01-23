@@ -5,6 +5,9 @@ https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/con-.htm
 https://gis.stackexchange.com/questions/39139/making-new-raster-using-con-script-using-arcpy
 https://gis.stackexchange.com/questions/261252/arcgis-raster-calculator-con-statement?rq=1
 https://resources.arcgis.com/en/help/main/10.1/index.html#//009z000000zn000000
+
+COMPARE:
+How to compare two rasters and reclass the greater value(python script)? https://gis.stackexchange.com/questions/95396/how-to-compare-two-rasters-and-reclass-the-greater-valuepython-script
     
 What is the Raster Cell Iterator? read, write to cells
 https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/raster-cell-iterator/what-is-the-raster-cell-iterator.htm
@@ -30,6 +33,7 @@ map algebra on raster: https://www.e-education.psu.edu/geog485/node/311
 SINNVOLLE FOLIEN MIT CODE SNIPPETS zu Rastern: https://here.isnew.info/accessing-raster-data-using-arcpy.html#/-save-raster
 
 Raster, loop, while: https://community.esri.com/t5/python-questions/raster-calculator-within-loop/td-p/558106
+        Loop through list of raster and replace values with another raster if they meet a condition https://gis.stackexchange.com/questions/218488/loop-through-list-of-raster-and-replace-values-with-another-raster-if-they-meet
 with/reset resource in loop: https://gis.stackexchange.com/questions/74325/arcpy-nested-loop-problem
     
 loop, folder, path, con, save: https://gis.stackexchange.com/questions/332925/looping-through-two-raster-folders-to-perform-raster-calculation
