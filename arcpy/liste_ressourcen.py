@@ -1,12 +1,22 @@
 Alphabetical list of ArcPy functions: https://euclgis.reg.rw/portal/portalhelp/en/notebook/latest/python/windows/alphabetical-list-of-arcpy-functions.htm
         MUST READ Raster: https://pro.arcgis.com/en/pro-app/latest/arcpy/classes/raster-object.htm
 
+praktische arcpy Examples: https://tereshenkov.wordpress.com/tag/arcpy/
+Accessing the index in 'for' loops: https://stackoverflow.com/questions/522563/accessing-the-index-in-for-loops
+How to append multiple values to a list in Python https://stackoverflow.com/questions/20196159/how-to-append-multiple-values-to-a-list-in-python
+
 CON: 
 https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/con-.htm
 https://gis.stackexchange.com/questions/39139/making-new-raster-using-con-script-using-arcpy
 https://gis.stackexchange.com/questions/261252/arcgis-raster-calculator-con-statement?rq=1
 https://resources.arcgis.com/en/help/main/10.1/index.html#//009z000000zn000000
 https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/mapalgebra/building-complex-statements.htm
+
+MERGE:
+    https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/merge-raster-function.htm
+    https://pro.arcgis.com/en/pro-app/latest/arcpy/image-analyst/merge.htm
+    https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/merge.htm
+                
     
 
 COMPARE:
@@ -23,11 +33,14 @@ LOOP:
     Raster Calculator within loop https://community.esri.com/t5/python-questions/raster-calculator-within-loop/td-p/558106
     https://community.esri.com/t5/python-questions/loop-raster-dataset-in-python/td-p/50750
     https://gis.stackexchange.com/questions/163368/using-loop-with-raster-calculator-in-arcpy
+    https://gis.stackexchange.com/questions/290878/iterating-rasters-from-two-different-folders-using-arcpy
     
 Cell Value:
     https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/get-cell-value.htm
+        
+List of raster functions https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/list-of-raster-functions.htm
     
-    
+https://desktop.arcgis.com/en/arcmap/10.3/analyze/arcpy-functions/listrasters.htm
     
 What is the Raster Cell Iterator? read, write to cells
 https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/raster-cell-iterator/what-is-the-raster-cell-iterator.htm
