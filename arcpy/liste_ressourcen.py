@@ -11,6 +11,7 @@ https://gis.stackexchange.com/questions/39139/making-new-raster-using-con-script
 https://gis.stackexchange.com/questions/261252/arcgis-raster-calculator-con-statement?rq=1
 https://resources.arcgis.com/en/help/main/10.1/index.html#//009z000000zn000000
 https://pro.arcgis.com/en/pro-app/latest/help/analysis/spatial-analyst/mapalgebra/building-complex-statements.htm
+Con(((detph >= 1) | (veloticty >= 1)|(detph*veloticty>=0.5)), 3,(Con(((detph >= 0.4) | (veloticty >= 0.4)|(detph*veloticty>=0.08)), 2,1)))
 
 MERGE:
     https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/merge-raster-function.htm
