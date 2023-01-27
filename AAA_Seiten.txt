@@ -1,11 +1,5 @@
 https://www.w3schools.com/python/python_getstarted.asp
 
-https://www.youtube.com/watch?v=TbbL2yeRTsk
-https://www.youtube.com/watch?v=ZAkZrZ9NbQw
-https://www.youtube.com/watch?v=ieyODuIjXp4
-https://www.youtube.com/watch?v=bZMgVe6s33s
-https://www.youtube.com/watch?v=QhUcgOOsUy8
-https://www.youtube.com/results?search_query=rasterio+tutorial
 
 https://geobgu.xyz/py/rasterio.html
 https://hatarilabs.com/ih-en/how-to-create-a-geospatial-raster-from-xy-data-with-python-pandas-and-rasterio-tutorial
