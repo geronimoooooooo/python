@@ -6,6 +6,14 @@ https://www.demo2s.com/python/python.html
 https://pynative.com/online-python-code-editor-to-execute-python-code/
 
 
+===Code Snippets===
+https://www.teachyourselfpython.com/code-snippet.php
+https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/
+https://levelup.gitconnected.com/22-python-code-snippets-for-everyday-problems-4c6a216c33ae
+https://towardsdatascience.com/all-about-python-100-code-snippets-tricks-concepts-and-important-modules-9a9fda489b6b
+https://python.plainenglish.io/12-killer-python-code-snippets-for-everyday-programming-5a05daad34af
+
+
 https://geobgu.xyz/py/rasterio.html
 https://hatarilabs.com/ih-en/how-to-create-a-geospatial-raster-from-xy-data-with-python-pandas-and-rasterio-tutorial
 https://blog.mbedded.ninja/space/rasterio/#converting-coordinates-to-pixels
