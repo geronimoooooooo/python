@@ -12,6 +12,7 @@ The __init__() function is called automatically every time the class is being us
 ===Commands===
 >python --version
 >pip --version
+>pip list #listet alle installierten packages/module
 >pip install <nameOfModule> #z.B. pip install rasterio==1.3.3
 >pip show <nameOfModule> #zeigt details und wo das modul abgespeichert ist
 >where python #zeigt alle ordner an wo sich eine python version mit python.exe befindet
