@@ -17,6 +17,14 @@ MERGE:
     https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/merge-raster-function.htm
     https://pro.arcgis.com/en/pro-app/latest/arcpy/image-analyst/merge.htm
     https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/merge.htm
+
+COUNT-getAnzahlCluster
+    https://gis.stackexchange.com/questions/373790/using-arcpy-getcount-to-return-number-of-records-for-each-table-in-gdb-or-mdb
+    https://community.esri.com/t5/python-questions/how-to-determine-number-of-records-using-arcpy-da/td-p/316397
+    https://gis.stackexchange.com/questions/30140/fastest-way-to-count-the-number-of-features-in-a-feature-class
+    https://community.esri.com/t5/geodatabase-questions/feature-count/td-p/832711
+    https://github.com/Esri/developer-support/blob/master/python/arcpy-python/count-multipart-features/count_multipart_features.py
+    
                 
     
 
