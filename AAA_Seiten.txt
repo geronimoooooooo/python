@@ -5,6 +5,7 @@ https://www.tutorialspoint.com/python/index.htm
 https://www.javatpoint.com/python-tutorial
 https://www.programiz.com/python-programming/function
 https://realpython.com/learning-paths/
+https://www.guru99.com/python-tutorials.html
 
 ====Python online IDE====
 https://pynative.com/online-python-code-editor-to-execute-python-code/+
