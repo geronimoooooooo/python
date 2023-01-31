@@ -1,12 +1,18 @@
 ====Python online resources====
 https://www.w3schools.com/python/python_getstarted.asp
 https://www.demo2s.com/python/python.html
+https://www.tutorialspoint.com/python/index.htm
+https://www.javatpoint.com/python-tutorial
+https://www.programiz.com/python-programming/function
+https://realpython.com/learning-paths/
 
 ====Python online IDE====
-https://pynative.com/online-python-code-editor-to-execute-python-code/
+https://pynative.com/online-python-code-editor-to-execute-python-code/+
+https://www.programiz.com/python-programming/online-compiler/
 
 
 ===Code Snippets===
+https://www.kaggle.com/learn
 https://www.teachyourselfpython.com/code-snippet.php
 https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/
 https://levelup.gitconnected.com/22-python-code-snippets-for-everyday-problems-4c6a216c33ae
