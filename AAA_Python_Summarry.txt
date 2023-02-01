@@ -10,6 +10,7 @@ The __init__() function is called automatically every time the class is being us
 + Python is a type-inferred language, so you don't have to explicitly define the variable type. It automatically knows that programiz.pro is a string and declares the site_name variable as a string.
 + snake_case, MACRO_CASE, camelCase, CapWords
 + print ('Floor Division: ', a // b) 7//3=2
++ Module is a file that contains code to perform a specific task. A module may contain variables, functions, classes etc.
 
 
 ===Commands===
