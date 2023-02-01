@@ -11,6 +11,7 @@ The __init__() function is called automatically every time the class is being us
 + snake_case, MACRO_CASE, camelCase, CapWords
 + print ('Floor Division: ', a // b) 7//3=2
 + Module is a file that contains code to perform a specific task. A module may contain variables, functions, classes etc.
++ from math import pi as p
 
 
 ===Commands===
