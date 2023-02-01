@@ -16,6 +16,7 @@ The __init__() function is called automatically every time the class is being us
 + Eine .py Datei ist ein module und mehrere modules/.py in einemm Ordner sind ein package
 + print(random.choice(list1)) # get random item from list1 
 + The index of -1 refers to the last item, -2 to the second last item and so on.
++ List comprehension: numbers = [number*number for number in range(1, 6)]
 
 
 ===Commands===
