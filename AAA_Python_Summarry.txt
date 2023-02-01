@@ -8,10 +8,8 @@ The __init__() function is called automatically every time the class is being us
 + module: code library. A file containing a set of functions you want to include in your application.
 + Import only the person1 dictionary from the module: from mymodule import person1
 + Python is a type-inferred language, so you don't have to explicitly define the variable type. It automatically knows that programiz.pro is a string and declares the site_name variable as a string.
-+ snake_case
-+ MACRO_CASE
-+ camelCase
-+ CapWords
++ snake_case, MACRO_CASE, camelCase, CapWords
++ print ('Floor Division: ', a // b) 7//3=2
 
 
 ===Commands===
