@@ -20,6 +20,7 @@ The __init__() function is called automatically every time the class is being us
 -- # breakdown the string into a list of words words = [word.lower() for word in my_str.split()]
 + a= 3.14159; b= 123.4567; print('a: %0.3f and b: %0.2f' %(a ,b)) ==> a: 3.142 and b: 123.46 (print('val: %0.2f' %val))
 +  Encapsulation refers to the bundling of attributes and methods inside a single class. It prevents outer classes from accessing and changing attributes and methods of a class. This also helps to achieve data hiding.
++ __init__, __str__ or __getitem__ methods. These are special methods that are called by the Python interpreter and not by you
 
 ===Commands===
 >python --version
