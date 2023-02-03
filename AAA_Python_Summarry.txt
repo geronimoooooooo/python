@@ -22,6 +22,7 @@ The __init__() function is called automatically every time the class is being us
 +  Encapsulation refers to the bundling of attributes and methods inside a single class. It prevents outer classes from accessing and changing attributes and methods of a class. This also helps to achieve data hiding.
 + __init__, __str__ or __getitem__ methods. These are special methods that are called by the Python interpreter and not by you
 + self == this
++ Mit der Yield-Anweisung können wir eine Generatorfunktion erstellen. Die Funktion liest und liefert bei jeder Iteration oder jedem Funktionsaufruf next() den neuen Datenblock.
 
 ===Commands===
 >python --version
