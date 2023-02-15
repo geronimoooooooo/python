@@ -42,3 +42,10 @@ The __init__() function is called automatically every time the class is being us
   C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3>python --version
   Python 3.9.11
   Falls python nicht in dem Ordner aufgerufen, dann nimmt das system die "default python version" her.
+  
+  
+  
+  ===for===
+  #referring to their index number
+  for i in range(len(thistuple)):
+  print(thistuple[i])
