@@ -1,6 +1,7 @@
 
 https://www.demo2s.com/python/python-logging-example.html
 https://www.studytonight.com/python/python-logging-in-file
+https://stackoverflow.com/questions/13733552/logger-configuration-to-log-to-file-and-print-to-stdout
 #################################################################
 import logging
 logging.basicConfig(
