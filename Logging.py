@@ -1,4 +1,5 @@
 
+https://www.delftstack.com/howto/python/python-logging-stdout/
 https://www.demo2s.com/python/python-logging-example.html
 https://www.studytonight.com/python/python-logging-in-file
 https://stackoverflow.com/questions/13733552/logger-configuration-to-log-to-file-and-print-to-stdout
@@ -36,6 +37,36 @@ logger.warning("OOPS!!!Its a Warning")
 logger.error("Have you try to divide a number by zero") 
 logger.critical("The Internet is not working....")
 #################################################################
+https://www.delftstack.com/howto/python/python-logging-stdout/
+
+import logging
+import sys
+
+#Creating and Configuring Logger
+Log_Format = "%(levelname)s %(asctime)s - %(message)s"
+logging.basicConfig(filename = "logfile.log",
+                    stream = sys.stdout, 
+                    filemode = "w",
+                    format = Log_Format, 
+                    level = logging.ERROR)
+
+logger = logging.getLogger()
+#Testing our Logger
+logger.error("Our First Error Message")
+---------------------------------
+import logging
+import sys
+
+logger = logging.getLogger()
+fileHandler = logging.FileHandler("logfile.log")
+streamHandler = logging.StreamHandler(sys.stdout)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+streamHandler.setFormatter(formatter)
+fileHandler.setFormatter(formatter)
+logger.addHandler(streamHandler)
+logger.addHandler(fileHandler)
+logger.error("This is the first error")
+
 #################################################################
 #################################################################
 #################################################################
