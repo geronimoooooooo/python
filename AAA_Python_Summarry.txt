@@ -52,3 +52,6 @@ The __init__() function is called automatically every time the class is being us
   #referring to their index number
   for i in range(len(thistuple)):
   print(thistuple[i])
+  
+  for i, el in enumerate(list, start=1):
+  print(i, el)
