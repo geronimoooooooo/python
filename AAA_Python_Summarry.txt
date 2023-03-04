@@ -55,3 +55,14 @@ The __init__() function is called automatically every time the class is being us
   
   for i, el in enumerate(list, start=1):
   print(i, el)
+
+
+===immutable int/string/list===
+Zahlen und Strings sind in Python immutable. 2 Variablen teilen nicht die selbe Referenz sobald eine verändert wurde. Listen hingegen schon.
+a = 'a'
+b = a
+print(a,b) ist 'a''a'
+a = 'c' #a hat neuen Wert und neue Speicheradresse erhalten. Nicht mehr selbe Referenz wie b
+print(a,b) ist 'c''a'
+
+Änderungen bei 1 Liste haben überall bei den anderen Listen die selben Änderungen.
