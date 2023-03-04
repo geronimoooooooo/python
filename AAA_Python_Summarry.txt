@@ -27,6 +27,7 @@ jedem Funktionsaufruf next() den neuen Datenblock.
 >>> for count, (one, two, three) in enumerate(zip(first, second, third)):
 ...     print(count, one, two, three)
 + Docstring: print(func.__doc__) or print(help(func))
++ Mit cython C code (library) mit python linken, damit schwere Arbeit in C ausgeführt wird
 
 ===Commands===
 >python --version
