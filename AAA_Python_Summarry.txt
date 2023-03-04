@@ -20,12 +20,15 @@ The __init__() function is called automatically every time the class is being us
 ++ return [v for i, v in enumerate(iterable, start=1) if not i % 2]
 -- # breakdown the string into a list of words words = [word.lower() for word in my_str.split()]
 + a= 3.14159; b= 123.4567; print('a: %0.3f and b: %0.2f' %(a ,b)) ==> a: 3.142 and b: 123.46 (print('val: %0.2f' %val))
-+  Encapsulation refers to the bundling of attributes and methods inside a single class. It prevents outer classes from accessing and changing attributes and methods of a class. This also helps to achieve data hiding.
++  Encapsulation refers to the bundling of attributes and methods inside a single class. 
+It prevents outer classes from accessing and changing attributes and methods of a class. This also helps to achieve data hiding.
 + __init__, __str__ or __getitem__ methods. These are special methods that are called by the Python interpreter and not by you
 + self == this
-+ Mit der Yield-Anweisung können wir eine Generatorfunktion erstellen. Die Funktion liest und liefert bei jeder Iteration oder jedem Funktionsaufruf next() den neuen Datenblock.
++ Mit der Yield-Anweisung können wir eine Generatorfunktion erstellen. Die Funktion liest und liefert bei jeder Iteration oder 
+jedem Funktionsaufruf next() den neuen Datenblock.
 >>> for count, (one, two, three) in enumerate(zip(first, second, third)):
 ...     print(count, one, two, three)
++ Docstring: print(func.__doc__) or print(help(func))
 
 ===Commands===
 >python --version
@@ -66,3 +69,10 @@ a = 'c' #a hat neuen Wert und neue Speicheradresse erhalten. Nicht mehr selbe Re
 print(a,b) ist 'c''a'
 
 Änderungen bei 1 Liste haben überall bei den anderen Listen die selben Änderungen.
+
+
+===Iterator===
+https://youtu.be/qeOcZiSp3tE?t=448
+
+===yield===
+https://youtu.be/qeOcZiSp3tE?t=626
