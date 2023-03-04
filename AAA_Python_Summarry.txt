@@ -57,8 +57,11 @@ jedem Funktionsaufruf next() den neuen Datenblock.
   
   for i, el in enumerate(list, start=1):
   print(i, el)
-
-
+  
+###############################
+Mastering Python - Everything You Need To Know To Become a Python Master
+https://www.youtube.com/watch?v=p15xzjzR9j0
+###############################
 ===immutable int/string/list===
 Zahlen und Strings sind in Python immutable. 2 Variablen teilen nicht die selbe Referenz sobald eine verändert wurde. Listen hingegen schon.
 a = 'a'
