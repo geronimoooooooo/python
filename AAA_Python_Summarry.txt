@@ -31,6 +31,7 @@ jedem Funktionsaufruf next() den neuen Datenblock.
 + Docstring: print(func.__doc__) or print(help(func))
 + Mit cython C code (library) mit python linken, damit schwere Arbeit in C ausgeführt wird
 + statt == is nutzen. if x==True: => if x is True:
++ use time.perf_counter() statt time.time() um duration zu messen: https://www.webucator.com/article/python-clocks-explained/
 
 
 ===Commands===
