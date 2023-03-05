@@ -30,6 +30,8 @@ jedem Funktionsaufruf next() den neuen Datenblock.
 ...     print(count, one, two, three)
 + Docstring: print(func.__doc__) or print(help(func))
 + Mit cython C code (library) mit python linken, damit schwere Arbeit in C ausgeführt wird
++ statt == is nutzen. if x==True: => if x is True:
+
 
 ===Commands===
 >python --version
@@ -53,9 +55,18 @@ jedem Funktionsaufruf next() den neuen Datenblock.
   
   
   ===for===
-  #referring to their index number
-  for i in range(len(thistuple)):
-  print(thistuple[i])
+for el in list:
+for i, el in enumerate(list):
+for el_a, el_b in zip(a, b):
+for i, (el_a, el_b) in enumerate(zip(a, b)):
+
+for key in dict:
+for key in list(dict.keys()): #make copy of keys because they might get modified
+for key, val in dict.items(): #key-value pairs
+
+#referring to their index number
+for i in range(len(thistuple)):
+print(thistuple[i])
   
   for i, el in enumerate(list, start=1):
   print(i, el)
@@ -64,6 +75,7 @@ jedem Funktionsaufruf next() den neuen Datenblock.
 Mastering Python - Everything You Need To Know To Become a Python Master
 https://www.youtube.com/watch?v=p15xzjzR9j0
 ###############################
+
 ===immutable int/string/list===
 Zahlen und Strings sind in Python immutable. 2 Variablen teilen nicht die selbe Referenz sobald eine verändert wurde. Listen hingegen schon.
 a = 'a'
