@@ -32,6 +32,10 @@ jedem Funktionsaufruf next() den neuen Datenblock.
 + Mit cython C code (library) mit python linken, damit schwere Arbeit in C ausgeführt wird
 + statt == is nutzen. if x==True: => if x is True:
 + use time.perf_counter() statt time.time() um duration zu messen: https://www.webucator.com/article/python-clocks-explained/
++ use numpy for math/arrays and pandas for "dataanalysis"
++ Python is compiled to "byte-code" (nicht zu machinecode) und diese files sind in ".pyc files" oder "__pycache__". 
+Der "byte-code" ist dann run by the interpreter.
++ pep8 ist ein stylecode 
 
 
 ===Commands===
