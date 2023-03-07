@@ -11,6 +11,15 @@ https://www.digitalocean.com/community/tutorials/python-add-to-dictionary#adding
 Reverse list
 https://www.programiz.com/python-programming/methods/list/reverse
 --------------------------------------------------------------------------------------------------------
+zip 2 Listen
+names = ['anne', 'beth', 'george', 'damon']
+ages = [12, 45, 32, 102]
+for i in range(len(names)):
+    print(names[i], 'is', ages[i], 'years old')
+    
+for el in zip(names,ages):
+    name, age = el
+    print(f'{name} is {age}')
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
