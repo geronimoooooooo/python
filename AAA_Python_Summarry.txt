@@ -37,7 +37,8 @@ jedem Funktionsaufruf next() den neuen Datenblock.
 + Python is compiled to "byte-code" (nicht zu machinecode) und diese files sind in ".pyc files" oder "__pycache__". 
 Der "byte-code" ist dann run by the interpreter.
 + pep8 ist ein stylecode 
-+n = 3.1499999; nn = round(n, 2);;;nnn = n*1000;nnn = int(nnn);nnn = nnn/100
++ n = 3.1499999; nn = round(n, 2);;;nnn = n*1000;nnn = int(nnn);nnn = nnn/100
++ lister=[0]; lis=lister; lis.clear() cleart auch lister; lis=[] lister hat noch die 0
 
 
 ===Commands===
