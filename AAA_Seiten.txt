@@ -3,6 +3,10 @@ https://www.w3schools.com/python/python_getstarted.asp
 https://www.programiz.com/python-programming/function https://www.programiz.com/python-programming/methods/string/format
 https://www.demo2s.com/python/python.html
 
+< https://dev.to/ra1nbow1/8-ways-to-add-an-element-to-the-beginning-of-a-list-and-string-in-python-925#:~:text=Method%201%3A%20insert&text=The%20insert()%20method%20takes,as%20the%20first%20parameter%201%20.
+< https://stackoverflow.com/questions/509211/understanding-slicing
+< https://stackoverflow.com/questions/10623302/how-does-assignment-work-with-list-slices
+
 https://towardsdatascience.com/all-about-python-100-code-snippets-tricks-concepts-and-important-modules-9a9fda489b6b
 https://builtin.com/data-science/python-code-snippets
 https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/
