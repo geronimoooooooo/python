@@ -24,6 +24,9 @@ for el in zip(names,ages):
 Stacktrace caller functions
 https://stackoverflow.com/questions/5067604/determine-function-name-from-within-that-function-without-using-traceback
 --------------------------------------------------------------------------------------------------------
+Slicing
+https://stackoverflow.com/questions/509211/understanding-slicing
+https://stackoverflow.com/questions/10623302/how-does-assignment-work-with-list-slices
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
