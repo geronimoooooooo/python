@@ -42,6 +42,7 @@ Der "byte-code" ist dann run by the interpreter.
 + pep8 ist ein stylecode 
 + n = 3.1499999; nn = round(n, 2);;;nnn = n*1000;nnn = int(nnn);nnn = nnn/100
 + lister=[0]; lis=lister; lis.clear() cleart auch lister; lis=[] lister hat noch die 0; lis[:] = irgendwas; würde auch lister mit verändern
++ deque: stack/que für schnelle Operationen auf beiden Seitenenden
 
 
 ===Commands===
