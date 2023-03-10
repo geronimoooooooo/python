@@ -53,6 +53,8 @@ Der "byte-code" ist dann run by the interpreter.
 >py -0p #zeigt Version zu alle gefundenen installierten python.exe mit Pfad
 >python -c "import sys; print(sys.exec_prefix);print(sys.path)"  #zeigt den Pfad zur aktuell genutzten Pythonversion an
 
+>lambda function nutzen wenn eine anonymous function kurzfristig (in einer anderen Funktion) gebraucht wird. Bez = lambda args: expression; Bez(args). 
+
 * In order to use the arcpy module you will need to use the Python interpreter that is installed by your ArcGIS client.
   Wenn mehrere unterschiedliche Python Versionen vorhanden sind, dann kann eine spezielle genutzt werden, indem
   Python aus dem Ordner, wo sich die gewünschte spezielle Version befindet, über commandline gestartet wird.  
