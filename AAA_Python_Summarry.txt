@@ -3,28 +3,31 @@
 + All classes have a function called __init__(), which is always executed when the class is being initiated. 
 The __init__() function is called automatically every time the class is being used to create a new object.
 + The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
-+ module: code library. A file containing a set of functions you want to include in your application.
 + Import only the person1 dictionary from the module: from mymodule import person1
 + Python is a type-inferred language, so you don't have to explicitly define the variable type. It automatically knows that programiz.pro is a string and declares the site_name variable as a string.
 + snake_case, MACRO_CASE, camelCase, CapWords
-+ print ('Floor Division: ', a // b) 7//3=2
++ Division /...flaot, //...int; 10/3=3.33; 10//3=3
 + Module is a file that contains code to perform a specific task. A module may contain variables, functions, classes etc.
++ Eine .py Datei ist ein module und mehrere modules/.py in einemm Ordner sind ein PACKAGE
 + from math import pi as p
+
 + we can use the dir() function to list all the function names in a module
-+ Eine .py Datei ist ein module und mehrere modules/.py in einemm Ordner sind ein package
 + print(random.choice(list1)) # get random item from list1 
 + The index of -1 refers to the last item, -2 to the second last item and so on.
+
 + List comprehension: numbers = [number*number for number in range(1, 6)]
 ++ return [v for i, v in enumerate(iterable, start=1) if not i % 2]
 dict_compr = {i:i*i for i in range(10)}
 int_docs_info = {int(k) : v for k, v in docss_info.items()}
 set_compr = {i*i for i in range(10)}
 words = [word.lower() for word in my_str.split()] # breakdown the string into a list of words 
+
 + a= 3.14159; b= 123.4567; print('a: %0.3f and b: %0.2f' %(a ,b)) ==> a: 3.142 and b: 123.46 (print('val: %0.2f' %val))
 +  Encapsulation refers to the bundling of attributes and methods inside a single class. 
 It prevents outer classes from accessing and changing attributes and methods of a class. This also helps to achieve data hiding.
 + __init__, __str__ or __getitem__ methods. These are special methods that are called by the Python interpreter and not by you
-+ self == this
++ self == this, reference to current instance of class
+
 + Mit der Yield-Anweisung können wir eine Generatorfunktion erstellen. Die Funktion liest und liefert bei jeder Iteration oder 
 jedem Funktionsaufruf next() den neuen Datenblock.
 >>> for count, (one, two, three) in enumerate(zip(first, second, third)):
@@ -38,7 +41,7 @@ jedem Funktionsaufruf next() den neuen Datenblock.
 Der "byte-code" ist dann run by the interpreter.
 + pep8 ist ein stylecode 
 + n = 3.1499999; nn = round(n, 2);;;nnn = n*1000;nnn = int(nnn);nnn = nnn/100
-+ lister=[0]; lis=lister; lis.clear() cleart auch lister; lis=[] lister hat noch die 0
++ lister=[0]; lis=lister; lis.clear() cleart auch lister; lis=[] lister hat noch die 0; lis[:] = irgendwas; würde auch lister mit verändern
 
 
 ===Commands===
