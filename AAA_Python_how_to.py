@@ -20,6 +20,12 @@ for i in range(len(names)):
 for el in zip(names,ages):
     name, age = el
     print(f'{name} is {age}')
+    
+# Assign values to initialized dictionary keys. Using dict() + zip()
+res = dict(zip(test_dict, test_list))
+
+for key, val in zip(test_dict, test_list):
+    test_dict[key] = val
 --------------------------------------------------------------------------------------------------------
 Stacktrace caller functions
 https://stackoverflow.com/questions/5067604/determine-function-name-from-within-that-function-without-using-traceback
