@@ -46,7 +46,13 @@ from pprint import pprint
 import importlib.util    
     print(importlib.util.find_spec("arcpy").origin) #print path of a module
 --------------------------------------------------------------------------------------------------------
+Split a List Into Evenly Sized Chunks
+https://realpython.com/how-to-split-a-python-list-into-chunks/
+https://www.geeksforgeeks.org/break-list-chunks-size-n-python/
+https://www.programiz.com/python-programming/examples/list-chunks
 --------------------------------------------------------------------------------------------------------
+repeat last element of list
+https://stackoverflow.com/questions/63655242/whats-the-pythonic-way-to-repeat-first-and-last-element-of-a-list
 --------------------------------------------------------------------------------------------------------
   
   
