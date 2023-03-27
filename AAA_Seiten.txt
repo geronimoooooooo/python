@@ -1,5 +1,6 @@
 ====Python online resources====
 https://www.w3schools.com/python/python_getstarted.asp
+https://pythonexamples.org/
 https://www.programiz.com/python-programming/function https://www.programiz.com/python-programming/methods/string/format
 https://www.demo2s.com/python/python.html
 https://www.kaggle.com/learn
