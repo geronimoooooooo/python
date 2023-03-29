@@ -75,6 +75,9 @@ os.path.basename(arcpy.env.workspace} #liefert alles nach dem letzten '\' some_f
     # if true, set noData else remain ras2 values
     rasb = SetNull(ras2, ras2, "VALUE=0")
     rasb.save(path_to_raster+"rasb")
+
+    # Schallpegel von >70 dB auf NULL setzten um Rastergröße einzuschränken
+    out_rast2 = SetNull(out_rast1,out_rast1,"value > 70")
                  
     #if raster_sum cell value > XX; True: write new value from raster_mean; False: write NoData
     # smaller cluster disapear
