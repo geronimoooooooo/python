@@ -51,10 +51,10 @@ Der "byte-code" ist dann run by the interpreter.
 >pip install <nameOfModule> #z.B. pip install rasterio==1.3.3
 >pip list #listet alle installierten packages/module
 >pip show <nameOfModule> #zeigt details und wo das modul abgespeichert ist
->where *python* #listet alle Pfade zu gefundenen python.exe die im PATH/Systemvariable gesetzt sind
 >py -0p #zeigt Version zu alle gefundenen installierten python.exe mit Pfad
->python -c "import sys; print(sys.exec_prefix);print(sys.path)"  #zeigt den Pfad zur aktuell genutzten Pythonversion an
-
+>where *python* #listet alle Pfade zu gefundenen python.exe die im PATH/Systemvariable gesetzt sind
+>python -c "import sys; print(sys.exec_prefix);print(str(sys.path).replace(',', '\n')); #zeigt den Pfad zur aktuellen default Pythonversion an
+>ECHO.%PATH:;= & ECHO.% #listet alles aus der Systemvariable Path auf
 >lambda function nutzen wenn eine anonymous function kurzfristig (in einer anderen Funktion) gebraucht wird. Bez = lambda args: expression; Bez(args). 
 
 * In order to use the arcpy module you will need to use the Python interpreter that is installed by your ArcGIS client.
