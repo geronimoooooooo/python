@@ -48,6 +48,7 @@ Der "byte-code" ist dann run by the interpreter.
 + deque: stack/que für schnelle Operationen auf beiden Seitenenden
 
 +pip package manager um zu installieren und software packages zu managen
++ ras.name  l2=l1.copy() hardcopy, mit unterschiedlichen ids
 
 
 ===Commands===
