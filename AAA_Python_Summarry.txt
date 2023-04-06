@@ -113,3 +113,9 @@ https://youtu.be/qeOcZiSp3tE?t=448
 
 ===yield===
 https://youtu.be/qeOcZiSp3tE?t=626
+
+##################################################
+multi-line comment '''a'''
+Zero is considered to be FALSE
+compound expressen: join 2 boolean expression with AND
+logical not operator: if not value: (um zu sehen ob etwas leer ist; falls ja, dann wird true teil geprintet; value =[])
