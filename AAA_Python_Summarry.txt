@@ -114,9 +114,15 @@ https://youtu.be/qeOcZiSp3tE?t=448
 ===yield===
 https://youtu.be/qeOcZiSp3tE?t=626
 
-##################################################
+################################################## https://pythonexamples.or ##################################################
 multi-line comment '''a'''
 Zero is considered to be FALSE
 compound expressen: join 2 boolean expression with AND
 logical not operator: if not value: (um zu sehen ob etwas leer ist; falls ja, dann wird true teil geprintet; value =[])
 ternary operator: max = a if a > b else b ;; print('Python') if a > b else print('Examples')-
+default value: def add(a, b, c = 0):
+multiple arguments: def add(*args):    for arg in args:; the asterisk symbol is called unpacking operator
+mit *args eine unbestimmte Anzahl von Argumenten; mit **kwargs eine unbestimmte Anzahl von "named Argumenten"
+- def myFunction(*args, **kwargs):
+- myFunction("hello", "mars", a = 24, b = 87, c = 3, d = 46) #print(args) print(kwargs)
+- datatype von *args ist tuple und von **kwargs ist es dict
