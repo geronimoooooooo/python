@@ -126,3 +126,4 @@ mit *args eine unbestimmte Anzahl von Argumenten; mit **kwargs eine unbestimmte 
 - def myFunction(*args, **kwargs):
 - myFunction("hello", "mars", a = 24, b = 87, c = 3, d = 46) #print(args) print(kwargs)
 - datatype von *args ist tuple und von **kwargs ist es dict
+return multiple values from function:  a,b = swap() (return a,b)
