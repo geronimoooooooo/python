@@ -49,7 +49,9 @@ Der "byte-code" ist dann run by the interpreter.
 
 +pip package manager um zu installieren und software packages zu managen
 + arcpy.Raster() ras.name .path .catalogPath .maximum .noDataValue
-+ l2=l1.copy() hardcopy, mit unterschiedlichen ids
++ l2=l1.copy() hardcopy, mit unterschiedlichen ids, aber nur auf lvl1 Ebene. für lvl2: import copy; copy.deepcopy(list)
+
++ 47 Stringmethodshttps://www.youtube.com/watch?v=bnSYeYFRCaA str: .casefold() str.center(20,'.') .rjust(20, '_') .rfind() .find() returns -1, .index() wirft error .format_map(dict_xy) .isdecimal() .join() .lstrip('ab') .partition("=") .rpartition("=") .split(maxsplit=2) .rsplit()
 
 
 ===Commands===
