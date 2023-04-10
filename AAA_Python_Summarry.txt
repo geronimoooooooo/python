@@ -53,6 +53,8 @@ Der "byte-code" ist dann run by the interpreter.
 
 + 47 Stringmethodshttps://www.youtube.com/watch?v=bnSYeYFRCaA str: .casefold() str.center(20,'.') .rjust(20, '_') .rfind() .find() returns -1, .index() wirft error .format_map(dict_xy) .isdecimal() .join() .lstrip('ab') .partition("=") .rpartition("=") .split(maxsplit=2) .rsplit()
 
+text: str ='a' ist type hint oder type annotation
+lis1 = lis.copy() shallow copy bedeutet, dass wir 1d arrays ohne Seiteneffekte kopieren können; 2 Listen mit eigenen ids
 
 ===Commands===
 >python --version
