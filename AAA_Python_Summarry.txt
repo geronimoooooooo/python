@@ -4,7 +4,8 @@
 The __init__() function is called automatically every time the class is being used to create a new object.
 + The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
 + Import only the person1 dictionary from the module: from mymodule import person1
-+ Python is a type-inferred language, so you don't have to explicitly define the variable type. It automatically knows that programiz.pro is a string and declares the site_name variable as a string.
++ Python is a type-inferred language, so you don't have to explicitly define the variable type. It automatically knows that programiz.pro is a string 
+and declares the site_name variable as a string.
 + snake_case, MACRO_CASE, camelCase, CapWords
 + Division /...flaot, //...int; 10/3=3.33; 10//3=3
 + Module is a file that contains code to perform a specific task. A module may contain variables, functions, classes etc.
