@@ -2,7 +2,7 @@
 + exit() um die command line zu verlassen
 + All classes have a function called __init__(), which is always executed when the class is being initiated. 
 The __init__() function is called automatically every time the class is being used to create a new object.
-+ The self parameter is a reference to the current instance of the class, and is used to access variables that belongs to the class.
++ self == this, reference to current instance of class, and is used to access variables that belongs to the class.
 + Import only the person1 dictionary from the module: from mymodule import person1
 + Python is a type-inferred language, so you don't have to explicitly define the variable type. It automatically knows that programiz.pro is a string 
 and declares the site_name variable as a string.
@@ -30,7 +30,7 @@ words = [word.lower() for word in my_str.split()] # breakdown the string into a 
 +  Encapsulation refers to the bundling of attributes and methods inside a single class. 
 It prevents outer classes from accessing and changing attributes and methods of a class. This also helps to achieve data hiding.
 + __init__, __str__ or __getitem__ methods. These are special methods that are called by the Python interpreter and not by you
-+ self == this, reference to current instance of class
+
 
 + Mit der Yield-Anweisung können wir eine Generatorfunktion erstellen. Die Funktion liest und liefert bei jeder Iteration oder 
 jedem Funktionsaufruf next() den neuen Datenblock.
