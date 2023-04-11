@@ -84,7 +84,15 @@ os.path.basename(arcpy.env.workspace} #liefert alles nach dem letzten '\' some_f
     raster_out_sum_mean = Int(Con(raster_sum > init_file.cluster_threshold_final, raster_mean))
 
 --------------------------------------------------------------------------------------------------------
+write to file
+f = open(dir +"\\file.txt", "w")
+someText= ("a: "+ a +"\n"+"b: "+b)
+f.write(someText)
+f.close()
 --------------------------------------------------------------------------------------------------------
+Argumente an Skript übergeben
+with...
+	main(*argv[1:])
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 
