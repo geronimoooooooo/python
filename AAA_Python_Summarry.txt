@@ -47,6 +47,7 @@ Der "byte-code" ist dann run by the interpreter.
 + n = 3.1499999; nn = round(n, 2);;;nnn = n*1000;nnn = int(nnn);nnn = nnn/100
 + lister=[0]; lis=lister; lis.clear() cleart auch lister; lis=[] lister hat noch die 0; lis[:] = irgendwas; würde auch lister mit verändern
 + deque: stack/que Datenstruktur für schnelle Operationen auf beiden Seitenenden
+>lambda function nutzen wenn eine anonymous function kurzfristig (in einer anderen Funktion) gebraucht wird. Bez = lambda args: expression; Bez(args). 
 
 +pip package manager um zu installieren und software packages zu managen
 + arcpy.Raster() ras.name .path .catalogPath .maximum .noDataValue
@@ -70,7 +71,7 @@ text: str ='a' ist type hint oder type annotation
 >where *python* #listet alle Pfade zu gefundenen python.exe die im PATH/Systemvariable gesetzt sind
 >python -c "import sys; print(sys.exec_prefix);print(str(sys.path).replace(',', '\n')); #zeigt den Pfad zur aktuellen default Pythonversion an
 >ECHO.%PATH:;= & ECHO.% #listet alles aus der Systemvariable Path auf
->lambda function nutzen wenn eine anonymous function kurzfristig (in einer anderen Funktion) gebraucht wird. Bez = lambda args: expression; Bez(args). 
+
 
 * In order to use the arcpy module you will need to use the Python interpreter that is installed by your ArcGIS client.
   Wenn mehrere unterschiedliche Python Versionen vorhanden sind, dann kann eine spezielle genutzt werden, indem
@@ -84,7 +85,7 @@ text: str ='a' ist type hint oder type annotation
   ===for===
 for el in list:
 for i, el in enumerate(list):
-for el_a, el_b in zip(a, b):
+for el in zip(a, b):
 for i, (el_a, el_b) in enumerate(zip(a, b)):
 for i, el in enumerate(range(1,25), start=1):
     print("{}.{}".format(i,(3000 * (1+el/25))))
