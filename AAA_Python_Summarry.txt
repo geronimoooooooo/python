@@ -46,16 +46,19 @@ Der "byte-code" ist dann run by the interpreter.
 + pep8 ist ein stylecode 
 + n = 3.1499999; nn = round(n, 2);;;nnn = n*1000;nnn = int(nnn);nnn = nnn/100
 + lister=[0]; lis=lister; lis.clear() cleart auch lister; lis=[] lister hat noch die 0; lis[:] = irgendwas; würde auch lister mit verändern
-+ deque: stack/que für schnelle Operationen auf beiden Seitenenden
++ deque: stack/que Datenstruktur für schnelle Operationen auf beiden Seitenenden
 
 +pip package manager um zu installieren und software packages zu managen
 + arcpy.Raster() ras.name .path .catalogPath .maximum .noDataValue
 + l2=l1.copy() hardcopy, mit unterschiedlichen ids, aber nur auf lvl1 Ebene. für lvl2: import copy; copy.deepcopy(list)
+lis1 = lis.copy() shallow copy bedeutet, dass wir 1d arrays ohne Seiteneffekte kopieren können; 2 Listen mit eigenen ids
 
-+ 47 Stringmethodshttps://www.youtube.com/watch?v=bnSYeYFRCaA str: .casefold() str.center(20,'.') .rjust(20, '_') .rfind() .find() returns -1, .index() wirft error .format_map(dict_xy) .isdecimal() .join() .lstrip('ab') .partition("=") .rpartition("=") .split(maxsplit=2) .rsplit()
++ 47 Stringmethodshttps://www.youtube.com/watch?v=bnSYeYFRCaA 
+str: .casefold() macht straße == strasse => true
+str.center(20,'.') .rjust(20, '_') .rfind() .find() returns -1, .index() wirft error .format_map(dict_xy) .isdecimal() .join() .lstrip('ab') .partition("=") .rpartition("=") .split(maxsplit=2) .rsplit()
 
 text: str ='a' ist type hint oder type annotation
-lis1 = lis.copy() shallow copy bedeutet, dass wir 1d arrays ohne Seiteneffekte kopieren können; 2 Listen mit eigenen ids
+
 
 ===Commands===
 >python --version
