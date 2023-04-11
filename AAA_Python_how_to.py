@@ -94,6 +94,48 @@ Argumente an Skript übergeben
 with...
 	main(*argv[1:])
 --------------------------------------------------------------------------------------------------------
+how to log only one level
+import logging, sys
+
+class MyFilter(object):
+    def __init__(self, level):
+        self.__level = level
+
+    def filter(self, logRecord):
+        print(f"{logRecord}rec", logRecord.levelno)
+       # print(self.__level)
+        return logRecord.levelno > self.__level
+
+#create a logger
+logger = logging.getLogger('mylogger')
+logger.setLevel(logging.INFO)
+#handler = logging.FileHandler('mylog.log')
+handler = logging.StreamHandler(stream=sys.stdout)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+#set filter to log only INFO lines
+handler.addFilter(MyFilter(logging.INFO))
+logger.addHandler(handler)
+
+#write an INFO line to log file
+logger.info('This is a INFO message') #20
+logger.warning('This is a WARNING message') #30
+logger.error('This is an ERROR message') #40
+logger.critical('This is a CRITICAL message') #50
 --------------------------------------------------------------------------------------------------------
-
-
+def args_kwargs(*args,c=10,**kwargs):
+    print("args:", args) # args: (1, 22, 33, 44)
+    print("c:", c) # c: 10
+    print("kwargs:", kwargs) # kwargs: {'k1': 8, 'k2': 9}
+    
+args_kwargs(1,22,33,44, k1=8, k2=9)
+--------------------------------------------------------------------------------------------------------
+print(pi) # 3.14159
+print(int(pi)) # 3
+print(round(pi,4)) # 3.1416
+print(int((pi*10000))) # 31415
+print((pi*10000)//1) # 31415.0
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
