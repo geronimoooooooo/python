@@ -11,6 +11,7 @@ and declares the site_name variable as a string.
 + Module is a file that contains code to perform a specific task. A module may contain variables, functions, classes etc.
 ++ Eine .py Datei ist ein module und mehrere modules/.py in einemm Ordner sind ein PACKAGE
 + Wenn module im /sites/packages Ordner oder im Windows PATH, dann geht import module
++ Wenn in einem Folder die Datei __init__.py vorhanden, dann wird angedeutet, dass es ein importierbares Modul ist
 ++ Wenn ein module eine __name__=='__main__' hat, dann ist es selbständig ausführbar und ein Skript
 + from math import pi as p
 
