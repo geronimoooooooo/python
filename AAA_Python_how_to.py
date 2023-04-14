@@ -137,6 +137,19 @@ print(int((pi*10000))) # 31415
 print((pi*10000)//1) # 31415.0
 --------------------------------------------------------------------------------------------------------
 '%0.2f'  %(0.123455)
+ f'{someFloat:0.2f}'
 --------------------------------------------------------------------------------------------------------
+for row in arcpy.SearchCursor(myTable)
+	print(row.getValue("col")	
+				 
 --------------------------------------------------------------------------------------------------------
+inras = "ras100" 
+# convert raster to Numnpy array 
+rasArray = arcpy.RasterToNumPyArray(inras) 
+
+# ARRAY SLICING: get the total sum of every third value 
+# from every third row of the raster 
+sampArray = rasArray[::3,::3] 
+sum = numpy.sum(sampArray) 
+print sum
 --------------------------------------------------------------------------------------------------------
