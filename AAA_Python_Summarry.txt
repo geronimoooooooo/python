@@ -65,6 +65,9 @@ str.center(20,'.') .rjust(20, '_') .rfind() .find() returns -1, .index() wirft e
 
 text: str ='a' ist type hint oder type annotation
 
+sys.argv[0] is always the script name that is running.
+sys.argv[1] is the first argument sent to the script. 
+
 
 ===Commands===
 >python --version
