@@ -15,6 +15,7 @@ and declares the site_name variable as a string.
 ++ Module müssen grundsätzlich irgendwo am Python system path (sys.path) sein, ansonsten kein Import möglich ODER gleich neben Python Skript
 + Wenn in einem Folder die Datei __init__.py vorhanden, dann wird angedeutet, dass es ein importierbares Modul ist
 ++ Wenn ein module eine __name__=='__main__' hat, dann ist es selbständig ausführbar und ein Skript
+++ Jedes Modul das konkret mit dem Namen ausgeführt wird, hat den Namen __main__
 + from math import pi as p
 
 + we can use the dir() function to list all the function names in a module
