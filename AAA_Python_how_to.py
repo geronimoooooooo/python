@@ -167,6 +167,11 @@ if os.path.isdir(‘C:/Some/Path’):
 # os.listdir gives a list of everything in a specific folder.
 dir_list = os.listdir(input_folder)
 --------------------------------------------------------------------------------------------------------
+# Mosaic temporary files
+arcpy.Mosaic_management(';'.join(filelist[1:]), filelist[0])
+if arcpy.Exists(fileout):
+    arcpy.Delete_management(fileout)
+arcpy.Rename_management(filelist[0], fileout)
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
