@@ -90,9 +90,11 @@ someText= ("a: "+ a +"\n"+"b: "+b)
 f.write(someText)
 f.close()
 --------------------------------------------------------------------------------------------------------
-Argumente an Skript übergeben
+Argumente an Skript übergeben: https://www.geeksforgeeks.org/command-line-arguments-in-python/
 with...
 	main(*argv[1:])
+for arg in sys.argv:
+  print(arg)
 --------------------------------------------------------------------------------------------------------
 how to log only one level
 import logging, sys
