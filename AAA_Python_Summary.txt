@@ -67,6 +67,9 @@ text: str ='a' ist type hint oder type annotation
 
 sys.argv[0] is always the script name that is running.
 sys.argv[1] is the first argument sent to the script. 
++ iter() liefert iterator object, welches mit next() immer 1 Element herholt
++ loop erzeugt ein iterator object und bei jeder Schleife wird next() ausgeführt
++ möchte man iterator objekte von Klassen haben, dann müssen die __iter__ und __next__ implementieren
 
 
 ===Commands===
