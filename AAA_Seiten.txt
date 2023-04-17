@@ -8,7 +8,7 @@ https://pythonexamples.org/
 https://www.programiz.com/python-programming/function https://www.programiz.com/python-programming/methods/string/format
 https://www.demo2s.com/python/python.html
 https://www.kaggle.com/learn
-
+https://realpython.com/
 
 https://towardsdatascience.com/all-about-python-100-code-snippets-tricks-concepts-and-important-modules-9a9fda489b6b
 https://builtin.com/data-science/python-code-snippets
