@@ -180,4 +180,7 @@ x = "hello"
 if not type(x) is int:
   raise TypeError("Only integers are allowed")
 --------------------------------------------------------------------------------------------------------
+list_names =["a","b"]
+#dict comprehension
+dict_names = {name:len(name) for name in list_names}
 --------------------------------------------------------------------------------------------------------
