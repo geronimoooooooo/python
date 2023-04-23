@@ -3,7 +3,7 @@ https://here.isnew.info/accessing-raster-data-using-arcpy.html?read
 https://www.geeksforgeeks.org/how-to-keep-your-pc-awake-automatically-using-python/
 
 https://www.w3schools.com/python/python_getstarted.asp
-https://pynative.com/python-functions/
+https://pynative.com/python-functions/ https://pynative.com/python-range-function/#h-range-start-stop-step
 https://pythonexamples.org/
 https://www.programiz.com/python-programming/function https://www.programiz.com/python-programming/methods/string/format
 https://www.demo2s.com/python/python.html
