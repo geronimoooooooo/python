@@ -114,9 +114,15 @@ for key, val in dict.items(): #key-value pairs
 for i in range(len(thistuple)):
 print(thistuple[i])
   
-  for i, el in enumerate(list, start=1):
-  print(i, el)
-  
+for i, el in enumerate(list, start=1):
+print(i, el)
+
+dica = {i:i*i for i in range(1,5+1)}
+for el in dica.items():
+    print(el[0]) #key
+    print(el[1]) #val
+    print(dica[el[0]]) #val from key at pos 0 in el tuple
+print(dica)
 ###############################
 Mastering Python - Everything You Need To Know To Become a Python Master
 https://www.youtube.com/watch?v=p15xzjzR9j0
