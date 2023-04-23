@@ -72,7 +72,7 @@ sys.argv[1] is the first argument sent to the script.
 + loop erzeugt ein iterator object und bei jeder Schleife wird next() ausgeführt
 + möchte man iterator objekte von Klassen haben, dann müssen die __iter__ und __next__ implementieren
 + Wenn an eine function eine Liste übergeben wird, dann ist es eine Referenz. Changes in der function haben globale Wirkung. Will man eigenständige Liste in der function haben, dann list.copy() als Argument übergeben
-
++ Nicht in einer Funktion eine globale Variable mit if lesen, sondern diese als arg der Funktion übergeben
 
 ===Commands===
 >python --version
@@ -95,7 +95,7 @@ sys.argv[1] is the first argument sent to the script.
   
   
   
-  ===for===
+====== for ======
 for el in list:
 for i, el in enumerate(list):
 for el in zip(a, b):
