@@ -123,6 +123,9 @@ for el in dica.items():
     print(el[1]) #val
     print(dica[el[0]]) #val from key at pos 0 in el tuple
 print(dica)
+
+for key in dicta_to_del:
+  del dicta[key]
 ###############################
 Mastering Python - Everything You Need To Know To Become a Python Master
 https://www.youtube.com/watch?v=p15xzjzR9j0
