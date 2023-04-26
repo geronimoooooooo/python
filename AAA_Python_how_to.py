@@ -91,9 +91,10 @@ someText= ("a: "+ a +"\n"+"b: "+b)
 f.write(someText)
 f.close()
 --------------------------------------------------------------------------------------------------------
-Argumente an Skript übergeben: https://www.geeksforgeeks.org/command-line-arguments-in-python/
+Argumente an Skript übergeben: 
+https://www.geeksforgeeks.org/command-line-arguments-in-python/
+https://www.knowledgehut.com/blog/programming/sys-argv-python-examples
 with...
-	main(*argv[1:])
 for arg in sys.argv:
   print(arg)
 --------------------------------------------------------------------------------------------------------
