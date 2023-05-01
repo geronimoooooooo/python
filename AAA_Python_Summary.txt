@@ -96,7 +96,10 @@ quotient, remainder = x//p, x%p => divmod(x,p)
   Python 3.9.11
   Falls python nicht in dem Ordner aufgerufen, dann nimmt das system die "default python version" her.
   
-  
+ 
+print(f'{b:-<22} : der val') aaaaaaaaaaaaaa-------- : der val
+print(f'{a:+>22} : der val') +++++++++++++++++++abc : der val
+print(f'{a:*^22} : der val') *********abc********** : der val
   
 ====== for ======
 for el in list:
