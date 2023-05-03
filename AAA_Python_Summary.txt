@@ -1,3 +1,4 @@
+x = list(range(5)) =>print(x) [0,1,2,3,4]
 + in der console: python oder py
 + exit() um die command line zu verlassen
 + Wenn statement zu lang für 1 Zeile: "\" und dann einfach eine Zeile darunter weiter machen
