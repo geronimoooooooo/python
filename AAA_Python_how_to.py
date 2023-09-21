@@ -205,6 +205,11 @@ def main():
 if __name__=='__main__':
 	main()
 --------------------------------------------------------------------------------------------------------
+filein = os.path.join(os.getcwd(), r"input\input.tif") #folder where command line is executed
+OutTIFFname = "{}_{}_kd.tif".format(os.path.splitext(fc)[0],FieldValue)
+isFile = os.path.isfile(path)
+exists = os.path.exists(rasterOutputFolder)
+files = [os.path.join(arcpy.env.workspace, r) for r in files]
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
