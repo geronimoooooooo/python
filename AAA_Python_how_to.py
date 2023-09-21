@@ -211,6 +211,7 @@ isFile = os.path.isfile(path)
 exists = os.path.exists(rasterOutputFolder)
 files = [os.path.join(arcpy.env.workspace, r) for r in files]
 --------------------------------------------------------------------------------------------------------
+importieren von libraries aus anderen foldern https://stackoverflow.com/questions/4383571/importing-files-from-different-folder
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
