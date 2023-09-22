@@ -210,6 +210,8 @@ OutTIFFname = "{}_{}_kd.tif".format(os.path.splitext(fc)[0],FieldValue)
 isFile = os.path.isfile(path)
 exists = os.path.exists(rasterOutputFolder)
 files = [os.path.join(arcpy.env.workspace, r) for r in files]
+
+outras = Con(IsNull(ras100), val, ras100) #checks for NoData
 --------------------------------------------------------------------------------------------------------
 importieren von libraries aus anderen foldern https://stackoverflow.com/questions/4383571/importing-files-from-different-folder
 --------------------------------------------------------------------------------------------------------
