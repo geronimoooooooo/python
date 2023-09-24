@@ -7,6 +7,9 @@ How to create list of dictionary in Python https://www.geeksforgeeks.org/python-
 How to create list of dictionary in Python https://www.geeksforgeeks.org/how-to-create-list-of-dictionary-in-python/
 https://www.scaler.com/topics/list-of-dictionaries-in-python/
 iterate .keys(), .items(), .values() https://note.nkmk.me/en/python-dict-keys-values-items/
+
+https://www.geeksforgeeks.org/how-to-use-dict-get-with-multidimensional-dict/
+https://www.freecodecamp.org/news/python-sort-dictionary-by-key/
 --------------------------------------------------------------------------------------------------------  
 How to sort dictionary by key or value in numerical order Python
 https://realpython.com/iterate-through-dictionary-python/#sorted-by-keys
