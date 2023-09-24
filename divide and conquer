@@ -14,6 +14,8 @@ print(a, b)
 
 sw = 200
 default_tiefe = 2
+dict_raster = [{50:{'cluster':111}},{100:{'cluster':222}}]
+dict_raster2 = {200:{'cluster':222},400:{'cluster':444},800:{'cluster':888}}
 list_r = [200,400,800,1600]
 dict_r = {sw:default_tiefe, sw*2**1:6, sw*2**2:3}
 list_val = list(dict_r.values())
@@ -22,8 +24,15 @@ print(2**tiefe_max)
 print((2**tiefe_max)//2)
 print('4/8: ',4/8)
 print('4//8: ',4//8)
+list_full = []
 
 print(f'list_val: {list_val} max:{tiefe_max}')
+for dict in dict_raster:
+    print(dict)
+dict_new_entry = {140:{'cluster':20}}
+dict_raster2.update(dict_new_entry)
+for dict in dict_raster2:
+    print(f'{dict} cluster: {dict_raster2[dict].get("cluster")}')
 
 for tiefe_aktuell in range(1,tiefe_max+1):
     #for r in list_r:
@@ -38,4 +47,20 @@ for tiefe_aktuell in range(1,tiefe_max+1):
             print(i)
             val = int(sw + sw*(i/2**tiefe_max))
             print(f'val: {val}')
+            if val in list_full:
+                print(f"VALUE schon dir: {val}")
+            else:
+                dict_new_entry = {val:{'cluster':val}}
+                dict_raster2.update(dict_new_entry)
+            list_full.append(val)
         print("-----")
+list_full = sorted(list(set(list_full)))
+print(f'{list_full} len: {len(list_full)}')
+print(dict_raster2)
+#dict_raster3 = dict(sorted(dict_raster2.items()))
+
+sorted_dict = sorted(list(dict_raster2))
+#print(sorted_dict)
+
+for dict in sorted_dict:
+    print(f'{dict} {dict_raster2[dict]}')
