@@ -1,4 +1,13 @@
+viele how to in python https://note.nkmk.me/en/python/
+-------------------------------------------------------------------------------------------
 
+DICTIONARY
+Python | Get dictionary keys as a list https://www.geeksforgeeks.org/python-get-dictionary-keys-as-a-list/
+How to create list of dictionary in Python https://www.geeksforgeeks.org/python-extract-specific-keys-from-dictionary/?ref=ml_lbp
+How to create list of dictionary in Python https://www.geeksforgeeks.org/how-to-create-list-of-dictionary-in-python/
+https://www.scaler.com/topics/list-of-dictionaries-in-python/
+iterate .keys(), .items(), .values() https://note.nkmk.me/en/python-dict-keys-values-items/
+--------------------------------------------------------------------------------------------------------  
 How to sort dictionary by key or value in numerical order Python
 https://realpython.com/iterate-through-dictionary-python/#sorted-by-keys
 https://realpython.com/sort-python-dictionary/
