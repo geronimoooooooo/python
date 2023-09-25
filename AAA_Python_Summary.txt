@@ -111,9 +111,17 @@ for i, el in enumerate(range(1,25), start=1):
     print("{}.{}".format(i,(3000 * (1+el/25))))
 
 for key in dict:
-for key in list(dict.keys()): #make copy of keys because they might get modified
-for k, v in dict.items(): #key-value pairs
-  print(f'{k} und {v}')
+for key in list(dict.keys()): #make copy of keys because they might get modified 
+
+def myFunction(*args, **kwargs):
+    print(args) #('hello', 'mars')
+    print(kwargs) #{'a': 24, 'b': 87, 'c': 3, 'd': 46}
+    for k,v in kwargs.items():  #key-value pairs
+        print(f'{k} und {v}')
+    for el in kwargs.items():
+        print(f'{el[0]} und {el[1]}')
+    
+myFunction("hello", "mars", a = 24, b = 87, c = 3, d = 46) 
 
 #referring to their index number
 for i in range(len(thistuple)):
