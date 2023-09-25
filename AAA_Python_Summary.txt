@@ -112,7 +112,8 @@ for i, el in enumerate(range(1,25), start=1):
 
 for key in dict:
 for key in list(dict.keys()): #make copy of keys because they might get modified
-for key, val in dict.items(): #key-value pairs
+for k, v in dict.items(): #key-value pairs
+  print(f'{k} und {v}')
 
 #referring to their index number
 for i in range(len(thistuple)):
