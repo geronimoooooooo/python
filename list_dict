@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+###############################################################################################################
+##################################### DICTIONARY #####################################
+###############################################################################################################
+
 thisdict = {
   "brand": "Ford",
   "electric": False,
@@ -7,4 +18,40 @@ thisdict = {
   200: {'a':4, 5:55}
 }
 
-.items() .keys()==dict .values()
+.items() return each item in a dictionary, as tuples in a list.
+.keys()==dict 
++ The list of the keys is a view of the dictionary. Changes überall verfügbar.
+.values() The list of the values is a view of the dictionary, meaning that any changes done to the dictionary will be reflected in the values list.
+
+del dict deleted, dict.clear()
+dict['a'], dict.get('a')
+dict.pop(key) del dict[key]
+dict.popitem() #remove last
+
+for x in thisdict:
+  print(x) #key
+  print(thisdict[x]) #val
+
+for k, v in thisdict.items():
+  print(k, v)
+for el in thisdict.items():
+  print(el[0], el[1])
+----------------------------------------------------------------
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  }
+}
+keys = myfamily.keys()
+print(myfamily.keys()) #dict_keys(['child1', 'child2'])
+
+for child in myfamily:
+	print(myfamily[child]['name'])
+   	#Emil
+	#Tobias
+----------------------------------------------------------------
