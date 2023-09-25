@@ -1,0 +1,10 @@
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"],
+  1:2,
+  200: {'a':4, 5:55}
+}
+
+.items() .keys()==dict .values()
