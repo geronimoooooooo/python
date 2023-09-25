@@ -19,6 +19,9 @@ and declares the site_name variable as a string.
 + Wenn in einem Folder die Datei __init__.py vorhanden, dann wird angedeutet, dass es ein importierbares Modul ist
 ++ Wenn ein module eine __name__=='__main__' hat, dann ist es selbständig ausführbar und ein Skript
 ++ Jedes Modul das konkret mit dem Namen ausgeführt wird, hat den Namen __main__
+import sys
+sys.path.insert(0, sys.path[0]+'\\old_stuff') 
+from old_stuff.con_strategy import *
 + from math import pi as p
 
 + we can use the dir() function to list all the function names in a module
