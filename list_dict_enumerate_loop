@@ -83,7 +83,7 @@ Bei jeder Iteration wird das next element aus der iterable collection genommen.
 enum_obj = enumerate(iterable, start=0) #iterable obj welches Iteration unterstützt
 enum_obj mit list() und tuple() konvertierbar
 
--------
+--------------
 2 var: count, val
 enumerate(seq of val) returniert ITERATOR; next() auf ITERATOR yields ein tuple mit (count, val)
 
@@ -94,8 +94,11 @@ print(next(enum_obj)) #(0, 'apple')
 print(next(enum_obj)) #(1, 'banana')
 ...until StopIteration is raised
 print(list(enum_obj)) #[(2, 'cherry')]
--------
-
+--------------
+lister = [4,5,6]
+for index, ras in enumerate(lister,1):
+    print(f' {index}. {ras}')
+--------------
 grocery = ['bread', 'milk', 'butter']
 for item in enumerate(grocery):
   print(item)
