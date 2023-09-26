@@ -76,7 +76,9 @@ print(myfamily[child]['name'])
 ###############################################################################################################
 https://www.w3schools.com/python/ref_func_enumerate.asp
 
-enumerate() nimmt als arg eine collection und returniert es als ein enumerate Objekt. Hinzugefügt wird ein Counter als Key für das Objekt. Default 0.
+enumerate()
+nimmt als arg eine collection und returniert es als ein enumerate Objekt. Hinzugefügt wird ein Counter als Key für das Objekt. Default 0.
+Bei jeder Iteration wird das next element aus der iterable collection genommen.
 enum_obj = enumerate(iterable, start=0) #iterable obj welches Iteration unterstützt
 enum_obj mit list() und tuple() konvertierbar
 
