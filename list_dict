@@ -51,7 +51,7 @@ keys = myfamily.keys()
 print(myfamily.keys()) #dict_keys(['child1', 'child2'])
 
 for child in myfamily:
-	print(myfamily[child]['name'])
+print(myfamily[child]['name'])
   #Emil
-	#Tobias
+  #Tobias  
 ---------------------------------------------------------------
