@@ -28,6 +28,15 @@ dict['a'], dict.get('a')
 dict.pop(key) del dict[key]
 dict.popitem() #remove last
 
+for i, el in enumerate(thisdict, start=1):
+	print(i, el, thisdict[el])
+      1 brand Ford
+      2 electric False
+      3 year 1964
+      4 colors ['red', 'white', 'blue']
+      5 1 2
+      6 200 {'a': 4, 5: 55}
+
 for x in thisdict:
   print(x) #key
   print(thisdict[x]) #val
