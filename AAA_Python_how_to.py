@@ -227,7 +227,7 @@ outras = Con(IsNull(ras100), val, ras100) #checks for NoData
 --------------------------------------------------------------------------------------------------------
 importieren von libraries aus anderen foldern https://stackoverflow.com/questions/4383571/importing-files-from-different-folder
 --------------------------------------------------------------------------------------------------------
-slicing jedes 2. element
+slicing ab Stelle 1 bis Ende jedes 2. element
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 >>> list(alphabet[1::2])
