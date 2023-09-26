@@ -75,16 +75,26 @@ print(myfamily[child]['name'])
 ##################################### 3. ENUMERATE #####################################
 ###############################################################################################################
 https://www.w3schools.com/python/ref_func_enumerate.asp
+https://realpython.com/python-enumerate/
 
-enumerate()
-nimmt als arg eine collection und returniert es als ein enumerate Objekt. Hinzugefügt wird ein Counter als Key für das Objekt. Default 0.
+enumerate(): bietet count + val als tuple (count, val)
+nimmt als arg eine collection (sequence of values) und returniert es als ein enumerate Objekt. Hinzugefügt wird ein Counter als Key für das Objekt. Default 0.
 Bei jeder Iteration wird das next element aus der iterable collection genommen.
 enum_obj = enumerate(iterable, start=0) #iterable obj welches Iteration unterstützt
 enum_obj mit list() und tuple() konvertierbar
 
+-------
+2 var: count, val
+enumerate(seq of val) returniert ITERATOR; next() auf ITERATOR yields ein tuple mit (count, val)
+
 tupler = ('apple', 'banana', 'cherry')
 enum_obj = enumerate(tupler)
-print(list(enum_obj))# [(0, 'apple'), (1, 'banana'), (2, 'cherry')]
+
+print(next(enum_obj)) #(0, 'apple')
+print(next(enum_obj)) #(1, 'banana')
+...until StopIteration is raised
+print(list(enum_obj)) #[(2, 'cherry')]
+-------
 
 grocery = ['bread', 'milk', 'butter']
 for item in enumerate(grocery):
