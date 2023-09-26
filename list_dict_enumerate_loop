@@ -74,8 +74,12 @@ print(myfamily[child]['name'])
 ###############################################################################################################
 ##################################### 3. ENUMERATE #####################################
 ###############################################################################################################
+enumerate() nimmt als arg eine collection und returniert es als ein enumerate Objekt. Hinzugefügt wird ein Counter als Key für das Objekt. Default 0.
+x = enumerate(iterable, start)
 
-
+tupler = ('apple', 'banana', 'cherry')
+enum_obj = enumerate(tupler)
+print(list(enum_obj))# [(0, 'apple'), (1, 'banana'), (2, 'cherry')]
 
 ###############################################################################################################
 ##################################### 4. LOOP #####################################
