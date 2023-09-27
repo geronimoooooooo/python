@@ -249,5 +249,12 @@ with arcpy.EnvManager(workspace = wks):
 	for index, ras in enumerate(list_raster_obj_path,1):
 			print(f' {index}. {ras} {ras.catalogPath}')
 			#1. C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200
+
+        # list_raster_obj = [Raster(arcpy.Describe(ras).catalogPath) for ras in list_raster] #p(el)==path
+        list_raster_obj = [Raster(ras) for ras in list_raster] #p(el)==filename
+        for r in list_raster:
+            ras = Raster(r)
+            print((ras.catalogPath))
+            list_raster_obj.append(ras)
 			
 --------------------------------------------------------------------------------------------------------
