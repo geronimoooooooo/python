@@ -76,6 +76,7 @@ print(myfamily[child]['name'])
 ###############################################################################################################
 https://www.w3schools.com/python/ref_func_enumerate.asp
 https://realpython.com/python-enumerate/
+https://www.coursera.org/tutorials/enumerate-python
 
 enumerate(): bietet count + val als tuple (count, val)
 nimmt als arg eine collection (sequence of values) und returniert es als ein enumerate Objekt. Hinzugefügt wird ein Counter als Key für das Objekt. Default 0.
@@ -107,7 +108,10 @@ for item in enumerate(grocery):
   print(item)
   (0, 'bread')
   (1, 'milk')
-	(2, 'butter')
+  (2, 'butter')
+----------------
+for i, (k,v) in enumerate(dict_ras_thresholds_skeleton.items(),1):        
+	print(f'name of {i}. skeletor raster: {k} and val: {v}')
 ###############################################################################################################
 ##################################### 4. LOOP #####################################
 ###############################################################################################################
