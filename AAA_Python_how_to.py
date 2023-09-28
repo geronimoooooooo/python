@@ -43,11 +43,8 @@ for key, val in zip(test_dict, test_list):
 Stacktrace caller functions
 https://stackoverflow.com/questions/5067604/determine-function-name-from-within-that-function-without-using-traceback
 --------------------------------------------------------------------------------------------------------
-Slicing
-https://stackoverflow.com/questions/509211/understanding-slicing
-https://stackoverflow.com/questions/10623302/how-does-assignment-work-with-list-slices
---------------------------------------------------------------------------------------------------------
 
+--------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 import sys
 from pprint import pprint
@@ -166,9 +163,7 @@ sampArray = rasArray[::3,::3]
 sum = numpy.sum(sampArray) 
 print sum
 --------------------------------------------------------------------------------------------------------
-
 --------------------------------------------------------------------------------------------------------
-
 --------------------------------------------------------------------------------------------------------
 # Mosaic temporary files
 arcpy.Mosaic_management(';'.join(filelist[1:]), filelist[0])
@@ -178,9 +173,8 @@ x = "hello"
 if not type(x) is int:
   raise TypeError("Only integers are allowed")
 --------------------------------------------------------------------------------------------------------
-list_names =["a","b"]
-#dict comprehension
-dict_names = {name:len(name) for name in list_names}
+
+
 --------------------------------------------------------------------------------------------------------
 lisa = [1,2,3]
 lisb = [11,22,33]
@@ -212,11 +206,7 @@ outras = Con(IsNull(ras100), val, ras100) #checks for NoData
 --------------------------------------------------------------------------------------------------------
 importieren von libraries aus anderen foldern https://stackoverflow.com/questions/4383571/importing-files-from-different-folder
 --------------------------------------------------------------------------------------------------------
-slicing ab Stelle 1 bis Ende jedes 2. element
 
-alphabet = "abcdefghijklmnopqrstuvwxyz"
->>> list(alphabet[1::2])
-['b', 'd', 'f', 'h', 'j', 'l', 'n', 'p', 'r', 't', 'v', 'x', 'z']
 --------------------------------------------------------------------------------------------------------
 Raster path
 with arcpy.EnvManager(workspace = wks):
