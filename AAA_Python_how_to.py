@@ -47,10 +47,7 @@ Slicing
 https://stackoverflow.com/questions/509211/understanding-slicing
 https://stackoverflow.com/questions/10623302/how-does-assignment-work-with-list-slices
 --------------------------------------------------------------------------------------------------------
-create folder if it does not exist
-import os, os.path
-if not os.path.exists("qe/logs/"):
-    os.makedirs("qe/logs/")
+
 --------------------------------------------------------------------------------------------------------
 import sys
 from pprint import pprint
@@ -169,25 +166,13 @@ sampArray = rasArray[::3,::3]
 sum = numpy.sum(sampArray) 
 print sum
 --------------------------------------------------------------------------------------------------------
-# create dir
-os.makedir(path)
 
-#create new file geodatabase
-arcpy.CreateFileGDB_management(path_folder, "abc.gdb")
-
-lisa = arcpy.ListRaster()
-for ras in lisa:
-   arcpy.
 --------------------------------------------------------------------------------------------------------
-if os.path.isdir(‘C:/Some/Path’):
-# os.listdir gives a list of everything in a specific folder.
-dir_list = os.listdir(input_folder)
+
 --------------------------------------------------------------------------------------------------------
 # Mosaic temporary files
 arcpy.Mosaic_management(';'.join(filelist[1:]), filelist[0])
-if arcpy.Exists(fileout):
-    arcpy.Delete_management(fileout)
-arcpy.Rename_management(filelist[0], fileout)
+
 --------------------------------------------------------------------------------------------------------
 x = "hello"
 if not type(x) is int:
