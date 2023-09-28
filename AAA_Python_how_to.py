@@ -233,3 +233,14 @@ with arcpy.EnvManager(workspace = wks):
             list_raster_obj.append(ras)
 			
 --------------------------------------------------------------------------------------------------------
+ras1 = list_ras_obj[0]
+# check at raster ras1 each cell if val==0
+# if true, set noData else remain ras1 values
+rasa = SetNull(ras1==0,ras1)
+rasa.save(path_to_raster+"_rasa")
+
+ras2 = list_ras_obj[0]
+# check at raster ras2 each cell if val==0
+# if true, set noData else remain ras2 values
+rasb = SetNull(ras2, ras2, "VALUE=0")
+rasb.save(path_to_raster+"rasb")
