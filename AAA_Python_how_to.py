@@ -244,3 +244,7 @@ ras2 = list_ras_obj[0]
 # if true, set noData else remain ras2 values
 rasb = SetNull(ras2, ras2, "VALUE=0")
 rasb.save(path_to_raster+"rasb")
+
+# Process: Build Raster Attribute Table (Build Raster Attribute Table) (management)
+# amodelmos_last11_3_ = arcpy.management.BuildRasterAttributeTable(in_raster=arcpy_first22, overwrite="Overwrite", convert_colormap="NONE")[0]
+
