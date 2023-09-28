@@ -1,0 +1,17 @@
+if arcpy.Exists(fileout):
+    arcpy.Delete_management(fileout)
+# rename https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/rename.htm
+arcpy.Rename_management(filelist[0], fileout)
+#create new file geodatabase
+arcpy.CreateFileGDB_management(path_folder, "abc.gdb")
+arcpy.Delete_management(os.path.join(path_folder, gdbname))
+
+if os.path.isdir(‘C:/Some/Path’):
+# os.listdir gives a list of everything in a specific folder.
+dir_list = os.listdir(input_folder)
+
+
+create folder if it does not exist
+import os, os.path
+if not os.path.exists("qe/logs/"):
+    os.makedirs("qe/logs/")
