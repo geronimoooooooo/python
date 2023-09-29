@@ -258,6 +258,7 @@ raster_t2_name = os.path.splitext(os.path.basename(init_file.merged_raster_t2))[
 print(raster_t2_name, init_file.merged_raster_t2 )
 # arc_rc_final_T2 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Result_raster.gdb\arc_rc_final_T2
 --------------------------------------------------------------------------------------------------------
+def create_filler_raster_metadata(dict_ras_skeleton_metadata:dict[int,list])->dict[int,list]:
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
