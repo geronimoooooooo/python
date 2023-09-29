@@ -212,6 +212,7 @@ Raster path
 with arcpy.EnvManager(workspace = wks):
 	list_raster = arcpy.ListRasters("*", "GRID")     
 	list_raster_obj = [Raster(ras) for ras in list_raster]
+	list_raster_obj2 = [Raster(os.path.join(wks, ras)) for ras in list_raster] 
 	list_raster_obj_path = [Raster(arcpy.Describe(ras).catalogPath) for ras in list_raster]
 
 	logger.debug(f'Raster in arcpy.env.workspace: {arcpy.env.workspace}')
@@ -219,11 +220,15 @@ with arcpy.EnvManager(workspace = wks):
 			print(f' {index}. {ras}')
 			#1. r_200	
 	for index, ras in enumerate(list_raster_obj,1):
-			print(f' {index}. {ras} {ras.catalogPath}')
-			# 1. r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200
+      logger.info(f' {index}. {ras.name} {ras} {ras.catalogPath}')
+			# 1. r_200 r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200
+
+  for index, ras in enumerate(list_raster_obj2,1):
+      logger.info(f' {index}. {ras.name} {ras} {ras.catalogPath}') 
+		  1. r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200
 	for index, ras in enumerate(list_raster_obj_path,1):
-			print(f' {index}. {ras} {ras.catalogPath}')
-			#1. C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200
+      logger.info(f' {index}. {ras.name} {ras} {ras.catalogPath}')  
+			#1. r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200
 
         # list_raster_obj = [Raster(arcpy.Describe(ras).catalogPath) for ras in list_raster] #p(el)==path
         list_raster_obj = [Raster(ras) for ras in list_raster] #p(el)==filename
