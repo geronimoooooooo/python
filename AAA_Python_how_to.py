@@ -260,6 +260,9 @@ print(raster_t2_name, init_file.merged_raster_t2 )
 --------------------------------------------------------------------------------------------------------
 def create_filler_raster_metadata(dict_ras_skeleton_metadata:dict[int,list])->dict[int,list]:
 --------------------------------------------------------------------------------------------------------
+# helper_functions.sort_reverse_list(list_raster_obj_complete)
+#     dicta_sorted = {k: dicta[k] for k in sorted(dicta, key= raster_query.natkey)}
+# dicta_sorted_reversed = dict(reversed(dicta_sorted.items()))
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
