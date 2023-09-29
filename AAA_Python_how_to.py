@@ -226,6 +226,7 @@ with arcpy.EnvManager(workspace = wks):
   for index, ras in enumerate(list_raster_obj2,1):
       logger.info(f' {index}. {ras.name} {ras} {ras.catalogPath}') 
 		  1. r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200
+	
 	for index, ras in enumerate(list_raster_obj_path,1):
       logger.info(f' {index}. {ras.name} {ras} {ras.catalogPath}')  
 			#1. r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200 C:\Users\slukic\Documents\ArcGIS\Projects\MyProject2\Skeleton_raster.gdb\r_200
