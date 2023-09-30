@@ -72,6 +72,9 @@ print(myfamily[child]['name'])
 #dict comprehension
 dict_names = {name:len(name) for name in list_names}
 ---------------------------------------------------------------
+dict_ras_complete_metadata = dict_ras_skeleton_metadata | dict_ras_filler_metadata
+#list_raster.sort(key = helper_functions.natural_keys)
+
 #sort the dictionary for keys
 dict_ras_complete_metadata = dict(sorted(dict_ras_complete_metadata.items()))
 ---------------------------------------------------------------
