@@ -264,8 +264,11 @@ def create_filler_raster_metadata(dict_ras_skeleton_metadata:dict[int,list])->di
 #     dicta_sorted = {k: dicta[k] for k in sorted(dicta, key= raster_query.natkey)}
 # dicta_sorted_reversed = dict(reversed(dicta_sorted.items()))
 --------------------------------------------------------------------------------------------------------
-os.path.basename(arcpy.env.workspace)  #used.gdb
+os.path.basename(arcpy.env.workspace)  # liefert vom pfad nur letzten Teil mit: used.gdb
 --------------------------------------------------------------------------------------------------------
+for index, file in enumerate(list_raster, 1):
+    #get the threshold number from file name
+    threshold = int(file.split("_")[-1]) #r_200 wird zu = 200
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
