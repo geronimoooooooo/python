@@ -75,6 +75,10 @@ dict_names = {name:len(name) for name in list_names}
 #sort the dictionary for keys
 dict_ras_complete_metadata = dict(sorted(dict_ras_complete_metadata.items()))
 ---------------------------------------------------------------
+dicta = {1:'a', 2:'b', 'ey':'yo'}
+
+print(list(dicta.keys())[2])
+print(list(dicta.values())[2])
 ---------------------------------------------------------------
 ---------------------------------------------------------------
 ---------------------------------------------------------------
