@@ -270,6 +270,11 @@ for index, file in enumerate(list_raster, 1):
     #get the threshold number from file name
     threshold = int(file.split("_")[-1]) #r_200 wird zu = 200
 --------------------------------------------------------------------------------------------------------
+ list_ras_skeleton = list(dict_ras_skeleton_metadata.keys())
+dict_ras_filler_metadata_local = {}
+ras_minus_1 = list_ras_skeleton[0]    
+dict_ras_skeleton_metadata[ras_minus_1][2] = 0 #set relative % diff to the skeleton raster before itself
+for ras in list_ras_skeleton[1:]:     
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
