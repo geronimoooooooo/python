@@ -26,7 +26,7 @@ thisdict = {
 
 .items() return each item in a dictionary, as tuples in a list.
 .keys()==dict 
-+ The list of the keys is a view of the dictionary. Changes überall verfügbar.
++ dict_keys = thisdict.keys(); The list of the keys is a view of the dictionary. Changes überall verfügbar.
 .values() The list of the values is a view of the dictionary, meaning that any changes done to the dictionary will be reflected in the values list.
 
 del dict deleted, dict.clear()
