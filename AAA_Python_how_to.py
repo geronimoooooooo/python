@@ -265,6 +265,7 @@ def create_filler_raster_metadata(dict_ras_skeleton_metadata:dict[int,list])->di
 # dicta_sorted_reversed = dict(reversed(dicta_sorted.items()))
 --------------------------------------------------------------------------------------------------------
 os.path.basename(arcpy.env.workspace)  # liefert vom pfad nur letzten Teil mit: used.gdb
+raster_t2_name = os.path.splitext(os.path.basename(init_file.merged_raster_t2_path))[0] # liefert Dateiname ohne Extension
 --------------------------------------------------------------------------------------------------------
 for index, file in enumerate(list_raster, 1):
     #get the threshold number from file name
@@ -279,4 +280,8 @@ for ras in list_ras_skeleton[1:]:
 for i in range(8)[::2]:
     print(i)
 --------------------------------------------------------------------------------------------------------
+lisa_obj.sort(key=lambda obj: helper_functions.natkey(obj.name))
+    dicta_sorted = {k: dicta[k] for k in sorted(dicta, key= helper_functions.natkey)}
+    dicta_sorted_reversed = dict(reversed(dicta_sorted.items()))
+
 --------------------------------------------------------------------------------------------------------
