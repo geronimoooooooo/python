@@ -7,17 +7,22 @@ def atoi(text):
     return int(text) if text.isdigit() else text
 
 def natural_keys(text):
-    '''
+    '''Best human sort.
+    e.g. ['0', '-a', 'a', 'a1', 'a01', 'a004', 'a0030', 'a_101', 'a_1000']\n
+    def atoi(text):
+    return int(text) if text.isdigit() else text \n
     alist.sort(key=natural_keys) sorts in human order
     http://nedbatchelder.com/blog/200712/human_sorting.html
     (See Toothy's implementation in the comments)
     https://stackoverflow.com/questions/5967500/
     how-to-correctly-sort-a-string-with-a-number-inside
+    
     '''
     return [ atoi(c) for c in re.split(r'(\d+)', text) ]
 
 def natkey(s):
-    '''https://stackoverflow.com/questions/16955105/sort-list-of-objects-by-attribute-alphanumerically
+    '''Use when sorting by attributes of an object. Must start with a char.
+    https://stackoverflow.com/questions/16955105/sort-list-of-objects-by-attribute-alphanumerically
     https://www.w3docs.com/snippets/python/how-to-sort-a-list-of-objects-based-on-an-attribute-of-the-objects.html
     https://stackoverflow.com/questions/403421/how-do-i-sort-a-list-of-objects-based-on-an-attribute-of-the-objects
     '''
