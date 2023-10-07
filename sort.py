@@ -1,3 +1,4 @@
+https://www.programiz.com/python-programming/methods/list/sort
 lisa_obj.sort(key=lambda obj: helper_functions.natkey(obj.name))
     dicta_sorted = {k: dicta[k] for k in sorted(dicta, key= helper_functions.natkey)}
     dicta_sorted_reversed = dict(reversed(dicta_sorted.items()))
