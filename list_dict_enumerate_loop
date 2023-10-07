@@ -84,6 +84,7 @@ dicta = {1:'a', 2:'b', 'ey':'yo'}
 print(list(dicta.keys())[2]) #ey
 print(list(dicta.values())[2]) #yo
 ---------------------------------------------------------------
+find index in dictionary of a keys https://sparkbyexamples.com/python/get-the-index-of-key-in-python-dictionary/?expand_article=1
 ---------------------------------------------------------------
 ---------------------------------------------------------------
 ---------------------------------------------------------------
