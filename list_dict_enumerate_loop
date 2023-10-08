@@ -87,6 +87,11 @@ print(list(dicta.values())[2]) #yo
 ---------------------------------------------------------------
 find index in dictionary of a keys https://sparkbyexamples.com/python/get-the-index-of-key-in-python-dictionary/?expand_article=1
 ---------------------------------------------------------------
+threshold = int(file.split("_")[-1])
+#'_'.join(file.split("_")[:-1])
+dict_ras_skeleton_metadata[threshold] = [-1,-1,-1,file] #counter_cluster, %absolute, %relative to prior raster, filename
+cluster_amount = raster_query.count_cluster_in_raster(file)
+dict_ras_skeleton_metadata[threshold][0] = cluster_amount   
 ---------------------------------------------------------------
 ---------------------------------------------------------------
 ---------------------------------------------------------------
