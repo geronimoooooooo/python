@@ -68,6 +68,7 @@ logger.addHandler(fileHandler)
 logger.error("This is the first error")
 
 #################################################################
+https://stackoverflow.com/questions/11111064/how-to-set-different-levels-for-different-python-log-handlers
 #################################################################
 #################################################################
 #################################################################
