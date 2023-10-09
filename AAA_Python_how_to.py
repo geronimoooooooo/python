@@ -288,6 +288,9 @@ lisa_obj.sort(key=lambda obj: helper_functions.natkey(obj.name))
 lisa_ohne_r.append(int(ras.split('_')[-1]))
 list_raster_obj = [Raster(ras) for ras in list_raster if int(ras.split('_')[-1]) in dict_ras_filler_metadata] 
 --------------------------------------------------------------------------------------------------------
+Wenn man von einem Unterordner files importieren möchte
+sys.path.insert(0, sys.path[0]+'\\old_stuff') 
+from old_stuff.con_strategy import *
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
