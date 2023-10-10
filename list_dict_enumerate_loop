@@ -10,6 +10,9 @@
 list_raster_obj = list(set(list_raster_obj))
 list_raster_obj.sort(key = helper_functions.natural_keys) #sort as a human would do
 
+Bei einer globalen Liste, die in einer funktion genutzt wird, muss man auch global Liste schreiben, außer man appended etwas zur Liste.
+Wird der Liste etwas zugeteilt, dann ohne global nur lokal aktuell. Außerhalb leer, deswegen global Liste schreiben in der Funktion.
+
 
 ###############################################################################################################
 ##################################### 2. DICTIONARY #####################################
