@@ -100,6 +100,21 @@ quotient, remainder = x//p, x%p => divmod(x,p)
   C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3>python --version
   Python 3.9.11
   Falls python nicht in dem Ordner aufgerufen, dann nimmt das system die "default python version" her.
+
+
+
+
+pip -V liefert: pip 20.2.1 from c:\program files\python38\lib\site-packages\pip (python 3.8)
+Wenn mit diesem pip die packages runter geladen werden, dann sind sie nicht für arcpy nutzbar,
+mit dem pip von Python38 in Scripts Ordner geladen.
+
+Man muss den pip aus C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\Scripts
+pip 21.2.4 from C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\site-packages\pip (python 3.9)
+pip install geopandas
+
+
+Als Umgebungsvariable erst /Scripts und dann den Python Ordner
+
   
  
 print(f'{b:-<22} : der val') aaaaaaaaaaaaaa-------- : der val
