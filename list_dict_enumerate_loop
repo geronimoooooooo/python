@@ -13,6 +13,10 @@ list_raster_obj.sort(key = helper_functions.natural_keys) #sort as a human would
 Bei einer globalen Liste, die in einer funktion genutzt wird, muss man auch global Liste schreiben, außer man appended etwas zur Liste.
 Wird der Liste etwas zugeteilt, dann ohne global nur lokal aktuell. Außerhalb leer, deswegen global Liste schreiben in der Funktion.
 
+l = [1,0,0,1,0,2,4,3,1]
+x = ('key1', 'key2', 'key3')
+l_unique:list = list(dict.fromkeys(l).keys()) # [1, 0, 2, 4, 3]
+
 
 ###############################################################################################################
 ##################################### 2. DICTIONARY #####################################
