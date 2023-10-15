@@ -294,6 +294,8 @@ from old_stuff.con_strategy import *
 --------------------------------------------------------------------------------------------------------
 https://www.toppr.com/guides/python-guide/questions/how-does-range-work-in-python/
 --------------------------------------------------------------------------------------------------------
+https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/
+https://dev.to/charalambosioannou/10-useful-one-liner-python-code-snippets-to-make-your-everyday-coding-useful-javascript-code-snippets-for-common-problems-351#6-filter-a-list
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
 --------------------------------------------------------------------------------------------------------
