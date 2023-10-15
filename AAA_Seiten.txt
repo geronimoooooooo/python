@@ -1,3 +1,9 @@
+https://google.github.io/styleguide/pyguide.html
+https://skillcrush.com/blog/python-programming-examples/
+
+
+
+
 ====Python online resources====
 https://here.isnew.info/accessing-raster-data-using-arcpy.html?read
 https://www.geeksforgeeks.org/how-to-keep-your-pc-awake-automatically-using-python/
@@ -32,6 +38,8 @@ https://www.online-python.com/
 
 
 ===Code Snippets===
+https://builtin.com/data-science/python-code-snippets
+https://github.com/keineahnung2345/python-code-snippets#readme
 https://www.kaggle.com/learn
 https://www.teachyourselfpython.com/code-snippet.php
 https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/
