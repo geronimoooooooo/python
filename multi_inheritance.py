@@ -1,6 +1,4 @@
-####G#### 
-##C###D##
-###P####
+#https://aviadr1.github.io/learn-advanced-python/05_more_on_classes_and_objects/more_on_classes_and_objects.html
 
 class Animal:
   def __init__(self, Animal):
